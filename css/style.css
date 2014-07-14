@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'ronniabolditalic';
+    src: url('../font/ronniabolditalic.eot');
+    src: url('../font/ronniabolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../font/ronniabolditalic.woff') format('woff'),
+         url('../font/ronniabolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ronniaregular';
+    src: url('../font/ronniareg.eot');
+    src: url('../font/ronniareg.eot') format('embedded-opentype'),
+         url('../font/ronniareg.woff') format('woff'),
+         url('../font/ronniareg.ttf') format('truetype'),
+         url('../font/ronniareg.svg#RonniaRegular') format('svg');
+}
+@font-face {
+    font-family: 'ronniabold';
+    src: url('../font/ronniabold.eot');
+    src: url('../font/ronniabold.eot?#iefix') format('embedded-opentype'),
+         url('../font/ronniabold.woff') format('woff'),
+         url('../font/ronniabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ronniaregitalic';
+    src: url('../font/ronniaregitalic.eot');
+    src: url('../font/ronniaregitalic.eot?#iefix') format('embedded-opentype'),
+         url('../font/ronniaregitalic.woff') format('woff'),
+         url('../font/ronniaregitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src:  url('../font/proxima_nova_bold-webfont.eot');
+    src:  url('../font/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../font/proxima_nova_bold-webfont.woff') format('woff'),
+          url('../font/proxima_nova_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_novalight';
+    src:  url('../font/proxima_nova_light-webfont.eot');
+    src:  url('../font/proxima_nova_light-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../font/proxima_nova_light-webfont.woff') format('woff'),
+          url('../font/proxima_nova_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src:  url('../font/proxima_nova_reg-webfont.eot');
+    src:  url('../font/proxima_nova_reg-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../font/proxima_nova_reg-webfont.woff') format('woff'),
+          url('../font/proxima_nova_reg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src:  url('../font/proxima_nova_reg-webfont.eot');
+    src:  url('../font/proxima_nova_reg-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../font/proxima_nova_reg-webfont.woff') format('woff'),
+          url('../font/proxima_nova_reg-webfont.ttf') format('truetype');
+/*     src:  url('../font/proxima_nova_sbold-webfont.eot');
+    src:  url('../font/proxima_nova_sbold-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../font/proxima_nova_sbold-webfont.woff') format('woff'),
+          url('../font/proxima_nova_sbold-webfont.ttf') format('truetype'); */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzBa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/EInbV5DfGHOiMmvb1Xr-hha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxrsuoFAk0leveMLeqYtnfAY.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBtIh4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxmWeb5PoA5ztb49yLyUzH1A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxoUt79146ZFaIJxILcpzmhI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxqQf9gnzM91ovO3JZgha9gY.woff) format('woff');
+}
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'ronniaregular';
+}
+
+p {
+  line-height: 1.2em;
+  margin: 1.5em 0;
+}
+
+ul {
+  padding: 0 0 0 20px;
+}
+
+ul li {
+  list-style-type: disc;
+  margin: 0.5em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#top-header,
+#footer-bottom{
+  height: 90px;
+  background-color: #fb7f0f;
+}
+
+.contacts {
+  width: 1034px;
+  margin:0 auto;
+  padding-top:24px;
+}
+
+.contact {
+  
+  float:left;
+}
+
+.contact .info {
+  margin: 0 16px;
+  padding-top:15px;
+  float: left;
+}
+
+.contact::before {
+  width:43px;
+  height:43px;
+  background: url(../images/header-icon-mail.png);
+  display: block;
+  content: '';
+  float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+  background: url(../images/header-bg.png);
+  height: 275px;
+}
+
+#header h2 {
+  color: #ffdd57;
+  font-family: 'ronniabolditalic';
+  font-size:3em;
+  margin-bottom: 25px;
+}
+
+#header-logo {
+  background: url(../images/header-logo.png);
+  width: 305px;
+  height: 289px;
+  margin-left: 88px;
+  float: left;
+  margin-top: -14px;
+}
+
+#header-text {
+  float: left;
+  margin: 100px 0 0 8%;
+  width: 50%;
+  color: #caf8c6;
+  font-family: 'Open Sans';
+  line-height: 1.4em;
+}
+
+
+
+
+
+#main-menu {
+  background: #00291e;
+  height: 70px;
+  clear: both;
+}
+
+#main-menu ul {
+  overflow: hidden;
+  height: 100%;
+}
+
+#main-menu ul::before {
+  background: url(../images/logo.png);
+  margin-left: 54px;
+  content: '';
+  float:left;
+  width: 70px;
+  height: 70px;
+}
+
+#main-menu ul li {
+  float:left;
+  list-style: none;
+  height:100%;
+  padding: 26px 13px; 
+  overflow: hidden;
+  margin: 0;
+}
+
+#main-menu ul li.active {
+  background: #099e76;
+}
+
+#main-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main-content {
+  margin: 66px auto 0;
+  clear: both;
+  width: 940px;
+}
+
+#main-content #items-left,
+#main-content #items-right,
+#main-content #timeline {
+  width: 460px;
+  float:left;
+}
+
+#main-content #timeline {
+  width: 7px;
+  height: 10000px;
+  background: #a4e3a0;
+  margin-top: 16px;
+}
+
+#main-content .item-content {
+  margin: 3px 0 0 28px;
+  width: 370px;
+}
+
+#main-content .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+
+#main-content .item::before {
+  width: 19px;
+  height: 19px;
+  display: block;
+  content: '';
+  float: left;
+  background: url(../images/dot.png);
+}
+
+#main-content .item-title {
+  color: #006f51;
+  font-family: 'ronniabolditalic';
+  font-size:1.5em;
+}
+
+#main-content .item::after {
+  background: #a4e3a0;
+  width: 38px;
+  height: 7px;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+
+/* RIGHT */
+
+#main-content #items-right {
+  padding-top: 100px;
+}
+
+#main-content #items-right .item {
+  margin-left: 48px;
+}
+
+#main-content #items-right .item::after {
+  background: #a4e3a0;
+  width: 38px;
+  height: 7px;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: -48px;
+}
+
+
+#main-content .month {
+  background: url(../images/month-arrow-left.png) no-repeat 100% 6px;
+  color: #006f51;
+  font-family: 'ronniabolditalic';
+  font-size:2.2em;
+  text-align: right;
+  padding-right: 40px;
+  position: relative;
+  z-index:100;
+  width: 434px;
+  float: left;
+  margin-bottom:20px;
+}
+
+#main-content #items-right .month {
+  
+  background: url(../images/month-arrow-right.png) no-repeat 0% 6px;
+  padding: 0;
+  padding-left: 40px;
+  text-align: left;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+#footer {
+  background: #a4e3a0;
+  height: 220px;
+  width: 100%;
+  color: #006f51;
+  overflow: hidden;
+}
+
+#footer h2 {
+  font-family: 'ronniabolditalic';
+  font-size:2em;
+}
+
+#footer #slider-wrapper {
+  width: 1000px;
+  margin: 46px 188px;
+  overflow: hidden;
+}
+
+#footer #slider::before {
+  width: 70px;
+  height: 56px;
+  background: url(../images/quote.png);
+  content: '';
+  display: block;
+  float: left;
+}
+
+#footer #slider #slides {
+  float: left;
+  font-family: 'Open Sans';
+  width: 70%;
+  margin-left:3%;
+  overflow: hidden;
+}
+
+#footer #slider #slide-tape {
+  width: 20000px;
+}
+
+#footer .slide {
+  width: 600px;
+  float: left;
+  margin-right: 100px;
+}
+
+
+
+#timeline-page table td,
+#timeline-page table th {
+  font-size: 0.9em;
+  padding:4px;
+  border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'RonniaRegular';
+    src: url('ronniareg.eot');
+    src: url('ronniareg.eot') format('embedded-opentype'),
+         url('ronniareg.woff') format('woff'),
+         url('ronniareg.ttf') format('truetype'),
+         url('ronniareg.svg#RonniaRegular') format('svg');
+}

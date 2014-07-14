@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'RonniaBoldItalic';
+    src: url('ronniabolditalic.eot');
+    src: url('ronniabolditalic.eot') format('embedded-opentype'),
+         url('ronniabolditalic.woff') format('woff'),
+         url('ronniabolditalic.ttf') format('truetype'),
+         url('ronniabolditalic.svg#RonniaBoldItalic') format('svg');
+}
