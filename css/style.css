@@ -152,6 +152,10 @@ p {
   margin: 1.5em 0;
 }
 
+a {
+  color: #fb7f0f;
+}
+
 ul {
   padding: 0 0 0 20px;
 }
@@ -339,6 +343,7 @@ img {
   color: #006f51;
   font-family: 'ronniabolditalic';
   font-size:1.5em;
+  line-height: 1.4em;
 }
 
 #main-content .item::after {
@@ -396,6 +401,32 @@ img {
   text-align: left;
   float: right;
 }
+
+.month.march {
+  margin-top: 300px;
+}
+
+
+.month.may {
+  margin-top: 800px;
+}
+
+.month.august {
+  margin-top: 300px;
+}
+
+.month.october {
+  margin-top: 300px;
+}
+
+.month.december {
+  margin-top: 1800px;
+}
+
+
+
+
+
 
 
 

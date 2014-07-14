@@ -3,7 +3,7 @@
   
   <div id="items-left">
     <!-- ----------------------------------------------   JANUÁR  ------------------------------------------------------------------ -->
-    <div class="month">Január</div>
+    <div class="month january">Január</div>
   
     <div class="item">
       <div class="item-content">
@@ -20,7 +20,7 @@
       </div>
     </div>
     <!-- ----------------------------------------------   MÁRCIUS  ------------------------------------------------------------------ -->
-    <div class="month">Március</div>
+    <div class="month march">Március</div>
     
     
     <div class="item">
@@ -56,7 +56,7 @@
     </div>
     
     <!-- ----------------------------------------------   MÁJUS  ------------------------------------------------------------------ -->
-    <div class="month">Május</div>
+    <div class="month may">Május</div>
     
     <div class="item">
       <div class="item-content">
@@ -91,7 +91,7 @@
     
     
     <!-- ----------------------------------------------   JÚLIUS  ------------------------------------------------------------------ -->
-    <div class="month">Július</div>
+    <div class="month july">Július</div>
     
     
     <div class="item">
@@ -154,7 +154,7 @@
       
     
     <!-- ----------------------------------------------   SZEMPTEMBER  ------------------------------------------------------------------ -->
-    <div class="month">Szemptember</div>
+    <div class="month september">Szemptember</div>
     
     
     <div class="item">
@@ -168,10 +168,8 @@
           engedett tovább a 2. fordulóra, amelyek közül 24 érkezett társasházaktól. A korábbi évekhez hasonlóan több
           „visszatérő” pályázó is lehetőséget kapott új projektek megvalósítására. A továbbjutókat a hónap folyamán rendezett
           egynapos képzésekkel segítettük a második fordulós pályázat beadására való felkészülésben,
-          és a közösségi tervezés folyamatának elindításában.</p>
-         
+          és a közösségi tervezés folyamatának elindításában.</p> 
         </div>
-        <div class="item-image"><img src="./images/foto_be.jpg"></div>
       </div>
     </div>
     
@@ -225,7 +223,7 @@
     </div>
     
     <!-- ----------------------------------------------   NOVEMBER   ------------------------------------------------------------------ -->
-    <div class="month">November</div>
+    <div class="month november">November</div>
       
     <div class="item">
       <div class="item-content">
@@ -295,7 +293,7 @@
   <div id="items-right">
   
     <!-- ----------------------------------------------   FEBRUÁR    ------------------------------------------------------------------ -->
-    <div class="month">Február</div>
+    <div class="month february">Február</div>
   
     <div class="item">
       <div class="item-content">
@@ -362,7 +360,7 @@
     </div>
     
     <!-- ----------------------------------------------   ÁPRILIS    ------------------------------------------------------------------ -->
-    <div class="month">Április</div>
+    <div class="month april">Április</div>
     
     
     <div class="item">
@@ -402,7 +400,7 @@
     </div>
     
     <!-- ----------------------------------------------   AUGUSZTUS    ------------------------------------------------------------------ -->
-    <div class="month">Augusztus</div>
+    <div class="month august">Augusztus</div>
     
     
     <div class="item">
@@ -442,7 +440,7 @@
     
     
     <!-- ----------------------------------------------   OKTÓBER   ------------------------------------------------------------------ -->
-    <div class="month">Október</div>
+    <div class="month october">Október</div>
     
     
     <div class="item">
@@ -461,7 +459,7 @@
     
     
     <!-- ----------------------------------------------   DECEMBER    ------------------------------------------------------------------ -->
-    <div class="month">December</div>
+    <div class="month december">December</div>
 
 
     <div class="item">
