@@ -4,88 +4,133 @@
 <meta charset="utf-8"/>
 <link href="css/html5-doctor-reset-stylesheet.css" rel="stylesheet"/>
 <link href="css/style.css" rel="stylesheet"/>
-<script src="scripts/script.js">
+<script src="scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/script.js"></script>
 </script>
 </head>
 <body>
 <?php
 
+$settlements = array();
+$topics = array('atom' => 'Atom és hitelek',
+                'norvegfix' => 'Norvég alap',
+                'svajcfix' => 'Svaci Magyar Civil és Ösztöndíj',
+                'zoldfix' => 'Zöldövezet');
 
-$files = array('atom', 'norvegfix', 'svajcfix', 'zoldfix');
-
-$map = array('atom' => 'category,id,url,project_name_hu,project_name_en,org_name_hu',
-             'norvegfix' => 'topic_hu,topic_en,id,id_code,org_name_hu,project_name_hu,project_name_en,settlement_en,settlement,org_name_en,project_name_number,summary_en,summary_hu,empty,amount_eur',
-              'svajcfix' => 'title_hu,empty,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_en,project_sum_hu,state,amount_huf,id_code,empty,emty,emty,emty,settlement',
-              'zoldfix' => 'id,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_hu,project_sum_en,state,settlement,amount_huf');
-
-for ($c = 0; $c < 4; $c++) {
-
-  $datas = array_map('str_getcsv', file('./reports/' . $files[$c] . '.csv'));
+function read_reports() {
+  global $settlements, $topics;
   
-  $header = explode(',', $map[$files[$c]]);
+  $files = array('atom', 'norvegfix', 'svajcfix', 'zoldfix');
   
-  foreach ($datas as $key => $data) {
-    $i = 0;
-    foreach ($data as $row) {
-      $udata[$key][$header[$i]] = $row;
-      $i++;
-      if ($i > count($header)-1) {
-        break;
+  
+  $map = array('atom' => 'category,id,url,project_name_hu,project_name_en,org_name_hu',
+               'norvegfix' => 'topic_hu,topic_en,id,id_code,org_name_hu,project_name_hu,project_name_en,settlement_en,settlement,org_name_en,project_name_number,summary_en,summary_hu,empty,amount_eur',
+                'svajcfix' => 'title_hu,empty,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_en,project_sum_hu,state,amount_huf,id_code,empty,emty,emty,emty,settlement',
+                'zoldfix' => 'id,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_hu,project_sum_en,state,settlement,amount_huf');
+  
+  for ($c = 0; $c < 4; $c++) {
+  
+    $datas = array_map('str_getcsv', file('./reports/' . $files[$c] . '.csv'));
+    
+    $header = explode(',', $map[$files[$c]]);
+    
+    foreach ($datas as $key => $data) {
+      $i = 0;
+      $udata[$key]['topic'] = $files[$c];
+      foreach ($data as $row) {
+        $udata[$key][$header[$i]] = $row;
+        
+        if ($header[$i] == 'settlement' && !in_array($row, $settlements)) {
+          
+          $settlements[] = $row;
+        }
+        
+        $i++;
+        if ($i > count($header)-1) {
+          break;
+        }
       }
     }
+    $uudata[$files[$c]] = $udata;
   }
-  $uudata[$files[$c]] = $udata;
-}
-
-foreach ($uudata as $keys => $rows) {
-  print '<h1>' . $keys . '</h1>';
-  foreach ($rows as $key => $row) {
-    if ($key !== 0) {
-      print theme($row);
+  
+  $output = '';
+  foreach ($uudata as $keys => $rows) {
+    $output.= '<h1>' . $keys . '</h1>';
+    foreach ($rows as $key => $row) {
+      
+        $output.= theme($keys, $row);
+      
     }
   }
+  return $output;
 }
 
-function theme($data, $lang = 'hu') {
-  $output = '';
-  $output.= '<div class="row">';
-  $output.= '<div class="project-name field">' . $data['project_name_hu'] . '</div>';
-  $output.= '<div class="org-name field">' . $data['org_name_hu'] . '</div>';
+function theme($topic, $data, $lang = 'hu') {
+  global $topics;
   
-  $output.= '<div class="settlement field">';
-  $output.= isset($data['settlement']) ? $data['settlement'] : 'nincs adat';
-  $output.= '</div>';
-  
-  $output.= '<div class="summary field">';
-  $output.= isset($data['summary_hu']) ? $data['summary_hu'] : 'nincs adat';
-  $output.= '</div>';
-  
-  $output.= '<div class="amount field">';
+  $project_name = isset($data['project_name_hu']) ? $data['project_name_hu'] : 'nincs adat';
+  $org_name = isset($data['org_name_hu']) ? $data['org_name_hu'] : 'nincs adat';
+  $settlement = (isset($data['settlement'])) ? $data['settlement'] : 'nincs_adat';
+  $summary = (isset($data['summary_hu'])) ? $data['summary_hu'] : 'nincs_adat';
   if (isset($data['amount_huf'])) {
-    $output.= $data['amount_huf'];
+    $amount = $data['amount_huf'];
   }
   elseif (isset($data['amount_eur'])) {
-    $output.= $data['amount_eur'];
+    $amount = $data['amount_eur'];
   } else {
-    $output.= 'nincs adat';
+    $amount = 'nincs adat';
   }
-  $output.= '</div>';
+  
+  $output = '';
+  $output.= '<div class="row" data-settlement="' . $settlement . '" data-topic="' . $topic . '">';
+  $output.= '<div class="topic field">' . $topics[$data['topic']] . '</div>';
+  $output.= '<div class="project-name field">' . $project_name . '</div>';
+  $output.= '<div class="org-name field">' . $org_name . '</div>';
+  
+  $output.= '<div class="settlement field">' . $settlement . '</div>';
+  
+  $output.= '<div class="summary field">' . $summary . '</div>';
+  
+  $output.= '<div class="amount field">' . $amount . '</div>';
   
   $output.= '</div>';
   
   return $output;
 }
 
+function filter() {
+  global $settlements, $topics;
+  asort($settlements);
+  $output = '';
+  $output.= '<div id="filter-wrapper">';
+  $output.= '<select id="settlement-filter">';
+  
+  array_shift($settlements);
+  array_unshift($settlements, 'nincs_adat');
+  array_unshift($settlements, 'város');
+  foreach ($settlements as $settlement) {
+    $output.= '<option>' . $settlement . '</option>';
+  }
+  $output.= '</select>';
+  
+  array_unshift($topics, 'program neve');
+  $output.= '<select id="topic-filter">';
+  foreach ($topics as $key => $topic) {
+    $output.= '<option value="' . $key . '">' . $topic . '</option>';
+  }
+  $output.= '</select>';
+  $output.= '</div>';
+  
+  return $output;
+  
+}
 
-print('<pre>');
-//print_r($datas);
-print('</pre>');
 
-print('<hr />');
-
-print('<pre>');
-//print_r($uudata);
-print('</pre>');
+ $table = read_reports();
+ print filter();
+ print $table;
+ 
 
 ?>
 </body>
