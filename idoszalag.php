@@ -147,7 +147,7 @@
         </p>
          
         </div>
-        <div class="item-image"><img src="./images/foto_be.jpg.jpg"></div>
+        <div class="item-image"><img src="./images/foto_be.jpg"></div>
       </div>
     </div>
     
@@ -171,7 +171,7 @@
           és a közösségi tervezés folyamatának elindításában.</p>
          
         </div>
-        <div class="item-image"><img src="./images/foto_be.jpg.jpg"></div>
+        <div class="item-image"><img src="./images/foto_be.jpg"></div>
       </div>
     </div>
     
@@ -193,12 +193,77 @@
           </p>
          
         </div>
-        <div class="item-image"><img src="./images/foto_be.jpg.jpg"></div>
+        <div class="item-image"><img src="./images/usaid_MO_2012.png"></div>
+        <div class="item-attachment"><a href="./attachments/https://docs.google.com/file/d/0B6OtTwiJJ0fvVWVNZGtLUnhadWc/edit?usp=drive_web">
+          SZERVEZETEK FENNTARTHATÓSÁGI MUTATÓJA 2012-BEN – MAGYARORSZÁG - 2013. június</a></div>
       </div>
-    </div>  
+    </div>
+    
+    
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Elkezdődik a közönségszavazás az Év Fája versenyben</div>
+        <div class="item-body">
+          <p>Szeptember 10-től november 5-ig lehetett szavazni az Év Fája 2013 verseny döntőseire.
+          A 41 fa közül, melyeket magánszemélyek, civil szervezetek, óvodák, önkormányzatok és egyéb intézmények jelöltek,
+          az Ökotárs szakmai zsűrije választotta ki azt a 12 döntőst, amelyekre a <a href="http://evfaja.okotars.hu">http://evfaja.okotars.hu</a> oldalon online lehetett szavazni.
+          2013-ban is a legtöbb közönség szavazatot elnyerő fa kapta a megtisztelő Év Fája címet.</p>
+       </div>
+      </div>
+    </div>
       
       
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Régi-új munkatárs</div>
+        <div class="item-body">
+          <p>Rövid kitérő után visszatért hozzánk Csóli Virág, aki 2008 és 2011 között az NCTA pályázatait kezelte
+          nálunk, most pedig a Svájci-Magyar Civil Alap ""zöld"" pályázatainak lebonyolításában vesz részt.</p>
+        </div>
+        <div class="item-image"><img src="./images/csoli_virag.jpg"></div>
+      </div>
+    </div>
+    
+    <!-- ----------------------------------------------   NOVEMBER   ------------------------------------------------------------------ -->
+    <div class="month">November</div>
       
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Év Fája díjátadó</div>
+        <div class="item-body">
+          <p>Az Év Fája verseny döntőseit november 29-én ünnepelték meg a fákat nevező szervezetek,
+          családok és települések. A zenés eseményen az Ökotárs Alapítvány több díjat is átadott, és a verseny összes
+          döntőse kapott valamilyen meglepetést. </p>
+          <p>Idén minden eddiginél több, összesen 18 661 szavazat érkezett a 12 döntős fára.
+          Az Év Fája fődíját 4059 szavazattal a <a href="http://evfaja.okotars.hu/fa/2013/egy-mesebeli-ven-vackorfa-avagy-godolloi-maganyos-orias-tortenete">
+          „Mesebeli vén vackorfa, avagy a gödöllői magányos óriás története”</a>
+          címmel nevezett fa nyerte, mely a Szent István Egyetem Botanikus kertjében áll, és amelyet még a XVIII. században
+          999 társával együtt ültetett Grassalkovich Antal gróf. A fa továbbjutott az Európai Év fája verseny döntőjébe is,
+          melyet 2014 februárjában hirdetnek meg. A díjátadón Hős Fa kitüntetést kapott a „Gyümölcsoltó Boldogasszony 303 éves
+          Árpával érő körtefája Solymáron”. Az Országos Erdészeti Egyesület különdíját a Telekiben álló 300 éves berkenye kapta.</p>
+        </div>
+        <div class="item-image"><img src="./images/gödöllői_vadkörte.jpg"></div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Nyílt levél a civil törvény módosításáról – „kihagyott lehetőségek tárháza”</div>
+        <div class="item-body">
+          <p>A 2014 tavaszán hatályba lépő új Polgári Törvénykönyv rendelkezéseivel való összehangolás végett a
+          kormány október végén az Országgyűlés elé terjesztette a „civil törvény” módosítására vonatkozó javaslatát,
+          amelyet a parlamenti vita lefolytatása után december 2-án fogadtak el a képviselők. Civil szervezetek, köztük az
+          Ökotárs Alapítvány a jogalkotási folyamat előtt és alatt is több ízben tettek részletes szakmai javaslatokat a szabályozás
+          „civilbarátabbá” tételére – sajnos azonban ezekből az ajánlásokból szinte semmi sem tükröződött az elfogadott
+          törvénymódosításban. </p>
+          <p>Az Ökotárs kezdeményezésére ezért 7 civil szervezet <a href="http://okotars.hu/sites/default/files/nyilt_level_a_civil_szervezeteket_erinto_varhato_valtozasokrol.pdf">
+          nyílt levelet tett közzé</a>, melyben megfogalmazták kritikáikat."</p>
+        </div>
+      </div>
+    </div>
+    
     
   </div> <!-- items-left -->
   
@@ -368,12 +433,70 @@
             és feltételek mellett: ismét két témakörben, (A: szociális szolgáltatások nyújtása, B környezeti kihívásokra adott válaszok),
             ez alkalommal kis- és közepes projekt kategóriában lehetett pályázni, október 28-ig. A pályázatírást a
             lebonyolító alapítványok az érintett hat megyében
-            (Észak-Magyarországon és -Alföldön) tartott csoportos konzultációkkal is segítették."</p>
+            (Észak-Magyarországon és -Alföldön) tartott csoportos konzultációkkal is segítették.</p>
           </div>
         
         <div class="item-image"></div>
       </div>
     </div>
+    
+    
+    <!-- ----------------------------------------------   OKTÓBER   ------------------------------------------------------------------ -->
+    <div class="month">Október</div>
+    
+    
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">SMCA pályázatok beadása</div>
+        <div class="item-body">
+            <p>Október 28-ig lehetett pályázatokat benyújtani a Svájci Hozzájárulás keretében működő alaphoz:
+            eddig a határidőig 173 db pályázat érkezett a szociális szolgáltatások nyújtása és 65 db a környezeti
+            kihívásokra adott válaszok című témára. A formai ellenőrzés nyomán mindkét témakörben 2-2 pályázat került
+            elutasítása, míg a többi esetében megkezdődött a szakmai értékelés folyamata.</p>
+          </div>
+        
+        <div class="item-image"></div>
+      </div>
+    </div>
+    
+    
+    <!-- ----------------------------------------------   DECEMBER    ------------------------------------------------------------------ -->
+    <div class="month">December</div>
+
+
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Új pályázati felhívások az NCTA-ban</div>
+        <div class="item-body">
+          <p>Akciókra, ifjúsági tanulmányutakra és ösztöndíjakra lehetett pályázni decembertől.
+          Mindhárom pályázat az NCTA horizontális területeit célozza, azaz az emberi és kisebbségi jogok
+          védelméről, az esélyegyenlőségről, a társadalmi befogadással és sokszínűséggel, a megkülönböztetés,
+          kirekesztés és idegengyűlölet ellenében való fellépésről szól valamilyen módon. Az akciópályázatokra
+          (egyszerűsített eljárásban) folyamatosan lehet pályázni valamilyen akut/aktuális problémára megoldást
+          kereső vagy azokra a figyelmet felhívó rövidebb kampányokkal, akciókkal és megmozdulásokkal, legfeljebb 5000€
+          támogatással. Az ifjúsági tanulmányutak 18-30 év közti fiatalok  számára adnak lehetőséget arra, hogy jó gyakorlatokat,
+          példákat gyűjtsenek Norvégiában, Izlandon vagy Liechtensteinben a fenti témákban, és azokat idehaza bemutassák, terjesszék,
+          kihasználva a modern kommunikáció eszközeit.</p>
+        </div>
+        
+        <div class="item-image"><img src="./images/akcio.jpg"></div>
+      </div>
+    </div>
+    
+
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Ismét bővültünk</div>
+        <div class="item-body">
+          <p>Az NCTA új akciópályázatainak lebonyolítására csatlakozott hozzánk Oravecz Ágnes, aki korábban a
+          Kurt Lewin, a TASZ majd a WWF munkatársa volt.</p>
+        </div>
+        
+        <div class="item-image"><img src="./images/oravecz_agnes.jpg"></div>
+      </div>
+    </div>      
+    
+    
     
   </div>  <!-- items-right -->
   
