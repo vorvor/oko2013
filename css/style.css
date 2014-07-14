@@ -494,8 +494,18 @@ img {
 
 
 
+/* REPORT */
 
+.field {
+  float: left;
+  padding: 6px;
+  border: 1px solid #ccc;
+  width:15%;
+}
 
+.row {
+  clear: both;
+}
 
 
 
