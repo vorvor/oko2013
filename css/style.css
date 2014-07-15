@@ -156,11 +156,20 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2em;
+  margin-bottom:20px;
 }
 
 h2 {
   font-size: 1.4em;
+  margin-bottom:10px;
+  margin-top:20px;
 }
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom:8px;
+}
+
 
 p {
   line-height: 1.2em;
@@ -234,7 +243,6 @@ img {
 
 #header h2 {
   color: #ffdd57;
-  font-family: 'ronniabolditalic';
   font-size:3em;
   margin-bottom: 25px;
 }
@@ -268,11 +276,26 @@ img {
 }
 
 #main-menu ul {
-  overflow: hidden;
   height: 100%;
 }
 
-#main-menu ul::before {
+#main-menu ul#menu li.submenu ul#submenu {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  display: none;
+  
+}
+
+#main-menu ul#menu li.submenu ul#submenu li {
+  float: none;
+  height: 0;
+  padding: 26px 13px 36px;
+  background: #099e76;
+}
+
+#main-menu ul#menu::before {
   background: url(../images/logo.png);
   margin-left: 54px;
   content: '';
@@ -284,13 +307,14 @@ img {
 #main-menu ul li {
   float:left;
   list-style: none;
-  height:100%;
+  height:18px;
   padding: 26px 13px; 
-  overflow: hidden;
+  position: relative;
   margin: 0;
 }
 
-#main-menu ul li.active {
+#main-menu ul li.active,
+#main-menu ul li:hover {
   background: #099e76;
 }
 
@@ -563,11 +587,84 @@ img {
 
 
 
+.munkatarsak h2 {
+  background: url(../images/month-arrow-right.png) no-repeat left 0;
+  padding: 0 0 0 36px;
+  margin: 0;
+  font-size:2.3em;
+  line-height: 1.2em;
+}
+
+.munkatarsak h3 {
+  background: url(../images/icon-li2.png) no-repeat left 3px;
+  background-size: 17px;
+  padding: 0 0 0 36px;
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.munkatarsak table img {
+  float: left;
+  margin: 0 13px 0 0;
+  border-bottom: 10px solid #fb7f0f;
+}
+
+.munkatarsak table td {
+  background: transparent;
+  padding: 0 20px 0 20px;
+  color: #006f51;
+  border-right: 1px solid #c8e8c5;
+  border-bottom: 40px solid #fff;
+  font-size: 12px;
+  line-height: 14px;
+  width: 300px;
+}
+
+.munkatarsak table td strong {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #00291e;
+}
 
 
 
 
 
 
+.penzugyi_jelentesek_hu table th {
+  background: #099e76;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+}
 
+.penzugyi_jelentesek_hu table tr:nth-child(even) {
+  background: #a0de9b;
+}
+
+.penzugyi_jelentesek_hu table tr:nth-child(odd) {
+  background: #93d58e;
+}
+
+.penzugyi_jelentesek_hu table td {
+  padding: 12px;
+}
+
+.penzugyi_jelentesek_hu table td.lpad {
+  padding-left: 28px;
+}
+
+.penzugyi_jelentesek_hu table th#title {
+  width: 580px;
+}
+
+.penzugyi_jelentesek_hu table th#amount {
+  width: 360px;
+}
+
+.penzugyi_jelentesek_hu .table-footer {
+  
+}
 

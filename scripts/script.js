@@ -44,5 +44,14 @@ $(document).ready(function() {
     
     
   }
+  
+  //dropdown menu
+  
+  $('ul#menu li.submenu').hover(function() {
+    $('ul', this).show();
+  },
+  function() {
+    $('ul', this).hide();
+  })
 })
 
