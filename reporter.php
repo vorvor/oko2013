@@ -20,14 +20,10 @@ function read_reports() {
   
   for ($c = 0; $c < 4; $c++) {
     
-    $filec = file_get_contents('./reports/' . $files[$c] . '.csv');
+
     $datas = array_map('str_getcsv', file('./reports/' . $files[$c] . '.csv'));
-    if (function_exists('str_getcsv')) {
-  print "str_getcsv defined\n";
-} else {
-  print "str_getcsv not defined\n";
-} 
-    print('./reports/' . $files[$c] . '.csv');
+
+
     
     $header = explode(',', $map[$files[$c]]);
     
