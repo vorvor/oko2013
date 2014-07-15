@@ -48,7 +48,7 @@
     <?php include('mainmenu.inc'); ?>
   </div>
   <div id="main-content">
-    <?php (empty($_GET['q'])) ? include('idoszalag.php') : include($_GET['q'] . '.php'); ?>
+    <?php (empty($_GET['q']) || $_GET['q'] == 'nyitolap') ? include('idoszalag.php') : include($_GET['q'] . '.php'); ?>
   </div>
   <div id="footer">
     <div id="slider-wrapper">
