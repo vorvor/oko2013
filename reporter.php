@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<link href="css/html5-doctor-reset-stylesheet.css" rel="stylesheet"/>
-<link href="css/style.css" rel="stylesheet"/>
-<script src="scripts/jquery-1.11.1.min.js"></script>
-<script src="scripts/script.js"></script>
-</script>
-</head>
-<body>
 <?php
 
 $settlements = array();
@@ -16,6 +5,7 @@ $topics = array('atom' => 'Atom és hitelek',
                 'norvegfix' => 'Norvég alap',
                 'svajcfix' => 'Svaci Magyar Civil és Ösztöndíj',
                 'zoldfix' => 'Zöldövezet');
+$even = 'true';
 
 function read_reports() {
   global $settlements, $topics;
@@ -55,19 +45,33 @@ function read_reports() {
   }
   
   $output = '';
+  $output = '<div id="search-results">';
+  $output.= '<div id="table-header">';
+  $output.= '<div class="topic field">Témakör</div>';
+  $output.= '<div class="project-name field">Projekt neve</div>';
+  $output.= '<div class="org-name field">Szervezet neve</div>';
+  
+  $output.= '<div class="settlement field">Település</div>';
+  
+  $output.= '<div class="summary field">Projekt összegzése</div>';
+  
+  $output.= '<div class="amount field">Összeg</div>';
+  
+  $output.= '</div>';
   foreach ($uudata as $keys => $rows) {
-    $output.= '<h1>' . $keys . '</h1>';
+    //$output.= '<h1>' . $keys . '</h1>';
     foreach ($rows as $key => $row) {
       
         $output.= theme($keys, $row);
       
     }
   }
+  $output.= '</div>';
   return $output;
 }
 
 function theme($topic, $data, $lang = 'hu') {
-  global $topics;
+  global $topics, $even;
   
   $project_name = isset($data['project_name_hu']) ? $data['project_name_hu'] : 'nincs adat';
   $org_name = isset($data['org_name_hu']) ? $data['org_name_hu'] : 'nincs adat';
@@ -82,8 +86,15 @@ function theme($topic, $data, $lang = 'hu') {
     $amount = 'nincs adat';
   }
   
+  if ($even == 'true') {
+    $rowclass = 'even';
+    $even = 'false';
+  } else {
+    $rowclass = 'odd';
+    $even = 'true';
+  }
   $output = '';
-  $output.= '<div class="row" data-settlement="' . $settlement . '" data-topic="' . $topic . '">';
+  $output.= '<div class="row ' . $rowclass . '" data-settlement="' . $settlement . '" data-topic="' . $topic . '">';
   $output.= '<div class="topic field">' . $topics[$data['topic']] . '</div>';
   $output.= '<div class="project-name field">' . $project_name . '</div>';
   $output.= '<div class="org-name field">' . $org_name . '</div>';
@@ -120,6 +131,7 @@ function filter() {
     $output.= '<option value="' . $key . '">' . $topic . '</option>';
   }
   $output.= '</select>';
+  $output.= 'Keresés <input type="text" id="keyword">';
   $output.= '</div>';
   
   return $output;
@@ -133,5 +145,3 @@ function filter() {
  
 
 ?>
-</body>
-</html>

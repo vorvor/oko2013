@@ -312,7 +312,7 @@ img {
 
 #main-content #timeline {
   width: 7px;
-  height: 10000px;
+  height: 8600px;
   background: #a4e3a0;
   margin-top: 16px;
 }
@@ -344,6 +344,7 @@ img {
   font-family: 'ronniabolditalic';
   font-size:1.5em;
   line-height: 1.4em;
+  margin-top: -6px;
 }
 
 #main-content .item::after {
@@ -496,18 +497,41 @@ img {
 
 /* REPORT */
 
-.field {
-  float: left;
-  padding: 6px;
-  border: 1px solid #ccc;
-  width:15%;
+.reporter #search-results {
+  display: table;
 }
 
-.row {
+.reporter .row {
+  overflow: hidden;
   clear: both;
+  display: table-row;
 }
 
+.reporter .field {
+  
+  padding: 6px;
+  width:14%;
+  min-height: 16px;
+  padding:15px 8px 10px 8px;
+  border-right: 1px solid #fff;
+  display: table-cell;
+    
+}
 
+.reporter #table-header {
+  background: #099e76;
+  color: #fff;
+  overflow: hidden;
+  display: table-row;
+}
+
+.reporter .row.even {
+  background: #a0de9b;
+}
+
+.reporter .row.odd {
+  background: #93d58e;
+}
 
 
 

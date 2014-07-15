@@ -4,10 +4,18 @@
 <meta charset="utf-8"/>
 <link href="css/html5-doctor-reset-stylesheet.css" rel="stylesheet"/>
 <link href="css/style.css" rel="stylesheet"/>
-<script src="scripts/script.js">
-</script>
+<script src="scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/script.js"></script>
 </head>
-<body>
+<?php 
+  if (isset($_GET['q'])) {
+    $body_class = $_GET['q'];
+  }
+  else {
+    $body_class = 'nyitolap';
+  }
+?>
+<body class="<?php print $body_class; ?>">
   <div id="top-header">
     <div class="contacts">
       <div class="contact" id="contact-phone">
@@ -37,17 +45,10 @@
     </div>
   </div>
   <div id="main-menu">
-    <ul id="menu">
-      <li class="active"><a href="#">Nyitólap</a></li>
-      <li><a href="#">Adományi adatbázis</a></li>
-      <li><a href="#">Magunkról</a></li>
-      <li><a href="#">Pénzügyi jelentés</a></li>
-      <li><a href="#">Köszönetnyilvánítások</a></li>
-      <li><a href="#">1%</a></li>
-    </ul>
+    <?php include('mainmenu.inc'); ?>
   </div>
   <div id="main-content">
-    <?php include('idoszalag.php'); ?>
+    <?php (empty($_GET['q'])) ? include('idoszalag.php') : include($_GET['q'] . '.php'); ?>
   </div>
   <div id="footer">
     <div id="slider-wrapper">
