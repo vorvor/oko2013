@@ -21,6 +21,7 @@ function read_reports() {
   for ($c = 0; $c < 4; $c++) {
   
     $datas = array_map('str_getcsv', file('./reports/' . $files[$c] . '.csv'));
+    print('./reports/' . $files[$c] . '.csv');
     
     $header = explode(',', $map[$files[$c]]);
     
