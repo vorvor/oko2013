@@ -45,10 +45,10 @@
     </div>
   </div>
   <div id="main-menu">
-    <?php include('mainmenu.inc'); ?>
+    <?php include('inc/mainmenu.inc'); ?>
   </div>
   <div id="main-content">
-    <?php (empty($_GET['q']) || $_GET['q'] == 'nyitolap') ? include('idoszalag.php') : include($_GET['q'] . '.php'); ?>
+    <?php (empty($_GET['q']) || $_GET['q'] == 'nyitolap') ? include('inc/idoszalag.php') : include('inc/' . $_GET['q'] . '.php'); ?>
   </div>
   <div id="footer">
     <div id="slider-wrapper">

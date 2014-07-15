@@ -1,7 +1,9 @@
 <?php
 
 $settlements = array();
-$topics = array('atom' => 'Atom és hitelek',
+$topics = array('altatom' => 'Alternatíva az atomenergiára',
+                'adomprog' => 'Adományi program',
+                'atom' => 'Atom és hitelek',
                 'norvegfix' => 'Norvég alap',
                 'svajcfix' => 'Svaci Magyar Civil és Ösztöndíj',
                 'zoldfix' => 'Zöldövezet');
@@ -10,11 +12,13 @@ $even = 'true';
 function read_reports() {
   global $settlements, $topics;
   
-  $files = array('atom', 'norvegfix', 'svajcfix', 'zoldfix');
+  $files = array('adomprog', 'altatom', 'atom', 'norvegfix', 'svajcfix', 'zoldfix');
   
   
-  $map = array('atom' => 'category,id,url,project_name_hu,project_name_en,org_name_hu',
-               'norvegfix' => 'topic_hu,topic_en,id,id_code,org_name_hu,project_name_hu,project_name_en,settlement_en,settlement,org_name_en,project_name_number,summary_en,summary_hu,empty,amount_eur',
+  $map = array('adomprog' => 'project_name_hu,org_name_hu,settlement,project_sum_hu,amount_huf',
+               'altatom' => 'project_name_hu,org_name_hu,settlement,project_sum_hu,amount_huf',
+               'atom' => 'category,id,url,project_name_hu,project_name_en,org_name_hu',
+               'norvegfix' => 'topic_hu,topic_en,id,id_code,org_name_hu,project_name_hu,project_name_en,settlement_en,settlement,org_name_en,project_name_number,project_sum_en,project_sum_hu,empty,amount_eur',
                 'svajcfix' => 'title_hu,empty,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_en,project_sum_hu,state,amount_huf,id_code,empty,emty,emty,emty,settlement',
                 'zoldfix' => 'id,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_hu,project_sum_en,state,settlement,amount_huf');
   
@@ -32,7 +36,6 @@ function read_reports() {
       $udata[$key]['topic'] = $files[$c];
       foreach ($data as $row) {
         $udata[$key][$header[$i]] = $row;
-        
         if ($header[$i] == 'settlement' && !in_array($row, $settlements)) {
           
           $settlements[] = $row;
@@ -46,7 +49,6 @@ function read_reports() {
     }
     $uudata[$files[$c]] = $udata;
   }
-  
   $output = '';
   $output = '<div id="search-results">';
   $output.= '<div id="table-header">';
@@ -79,9 +81,10 @@ function theme($topic, $data, $lang = 'hu') {
   $project_name = isset($data['project_name_hu']) ? $data['project_name_hu'] : 'nincs adat';
   $org_name = isset($data['org_name_hu']) ? $data['org_name_hu'] : 'nincs adat';
   $settlement = (isset($data['settlement'])) ? $data['settlement'] : 'nincs_adat';
-  $summary = (isset($data['summary_hu'])) ? $data['summary_hu'] : 'nincs_adat';
+  $summary = (isset($data['project_sum_hu'])) ? $data['project_sum_hu'] : 'nincs_adat';
   if (isset($data['amount_huf'])) {
-    $amount = $data['amount_huf'] . ' Ft';
+    $amount = preg_replace("/[^0-9]/","",$data['amount_huf']);
+    $amount = $amount . ' Ft';
   }
   elseif (isset($data['amount_eur'])) {
     $amount = preg_replace("/[^0-9]/","",$data['amount_eur']);

@@ -145,6 +145,21 @@
 
 body {
   font-family: 'ronniaregular';
+  
+}
+
+h1, h2, h3 {
+  font-family: 'ronniabolditalic';
+  color: #006f51;
+  
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
 }
 
 p {
@@ -302,6 +317,12 @@ img {
   clear: both;
   width: 940px;
 }
+
+#main-content h1 {
+
+}
+
+/* TIMELINE */
 
 #main-content #items-left,
 #main-content #items-right,

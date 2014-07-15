@@ -8,7 +8,8 @@
 <ul> 
     <li><a href="http://okotars.hu/jelentes/2012/munkatarsak.php">Munkatársak</a></li> 
     <li><a href="http://okotars.hu/jelentes/2012/elerhetosegeink.php">Elérhetőségek</a></li> 
-</ul> 
+</ul>
+<br /><br />
 <h2>Céljainkból</h2> 
 <ul> 
 <li>a hazai környezetvédő mozgalom, különösen a helyi környezeti problémákat megoldani képes programok megvalósításának támogatása;</li> 
