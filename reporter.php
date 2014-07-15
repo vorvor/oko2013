@@ -81,10 +81,11 @@ function theme($topic, $data, $lang = 'hu') {
   $settlement = (isset($data['settlement'])) ? $data['settlement'] : 'nincs_adat';
   $summary = (isset($data['summary_hu'])) ? $data['summary_hu'] : 'nincs_adat';
   if (isset($data['amount_huf'])) {
-    $amount = $data['amount_huf'];
+    $amount = $data['amount_huf'] . ' Ft';
   }
   elseif (isset($data['amount_eur'])) {
-    $amount = $data['amount_eur'];
+    $amount = preg_replace("/[^0-9]/","",$data['amount_eur']);
+    $amount = (int)($amount * 298.8) . ' Ft';
   } else {
     $amount = 'nincs adat';
   }
@@ -122,19 +123,19 @@ function filter() {
   
   array_shift($settlements);
   array_unshift($settlements, 'nincs_adat');
-  array_unshift($settlements, 'város');
+  array_unshift($settlements, 'Összes város');
   foreach ($settlements as $settlement) {
     $output.= '<option>' . $settlement . '</option>';
   }
   $output.= '</select>';
   
-  array_unshift($topics, 'program neve');
+  array_unshift($topics, 'Összes program');
   $output.= '<select id="topic-filter">';
   foreach ($topics as $key => $topic) {
     $output.= '<option value="' . $key . '">' . $topic . '</option>';
   }
   $output.= '</select>';
-  $output.= 'Keresés <input type="text" id="keyword">';
+  $output.= '<span class="search-keyword">Keresés <input type="text" id="keyword"></span>';
   $output.= '</div>';
   
   return $output;
