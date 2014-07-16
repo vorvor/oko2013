@@ -285,7 +285,7 @@ img {
   left: 0;
   top: 70px;
   display: none;
-  
+  z-index: 200;
 }
 
 #main-menu ul#menu li.submenu ul#submenu li {
