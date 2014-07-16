@@ -14,7 +14,7 @@
 
 <tr><td><strong>C.</strong></td><td><strong>Költségek</strong></td><td></td><td></td><td></td></tr>
 <tr><td></td><td>6. Központi bérek+ terhei</td><td></td><td>33871</td><td></td></tr>
-<tr><td></td><td>7. Programköltségek</td><td></td><td>36174</td><td></td></tr>
+<tr class="emp"><td></td><td>7. Programköltségek</td><td></td><td>36174</td><td></td></tr>
 <tr><td></td><td><strong>PROGRAMOK</strong></td><td></td><td></td><td></td></tr>
 <tr><td></td><td class="lpad">Future Team</td><td>660</td><td></td><td></td></tr>
 <tr><td></td><td class="lpad">Alternatíva az atomenergiára</td><td>2751</td><td></td><td></td></tr>
@@ -24,7 +24,7 @@
 <tr><td></td><td class="lpad">Év fája</td><td>322</td><td></td><td></td></tr>
 <tr><td></td><td class="lpad">Svájci-Magyar Civil és Ösztöndíj Alap</td><td>6965</td><td></td><td></td></tr>
 
-<tr><td></td><td>8. Kifizetett adományok</td><td></td><td>665460</td><td></td></tr>
+<tr class="emp"><td></td><td>8. Kifizetett adományok</td><td></td><td>665460</td><td></td></tr>
 <tr><td></td><td class="lpad">Belföldi adományok *</td><td>551042</td><td></td><td></td></tr>
 <tr><td></td><td class="lpad">Továbbitott adományok**</td><td>114418</td><td></td><td></td></tr>
 
@@ -36,11 +36,14 @@
 <tr><td><strong>D.</strong></td><td><strong>Eredmény</strong></td><td></td><td><strong>23928</strong></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td><strong>E.</strong></td><td><strong>Tőkeváltozás eredménye</strong> </td><td></td><td></td><td><strong>468736</strong></td></tr>
-<tr><td></td><td>Induló tőke</td><td></td><td></td><td>200</td></tr>
-<tr><td></td><td>Összes tőke  </td><td></td><td></td><td>468936</td></tr>
+<tr class="emp"><td></td><td>Induló tőke</td><td></td><td></td><td>200</td></tr>
+<tr class="emp"><td></td><td>Összes tőke  </td><td></td><td></td><td>468936</td></tr>
 
-<tr><td></td><td>Megmaradó saját tőke </td><td></td><td></td><td>468936</td></tr>
+<tr class="emp"><td></td><td>Megmaradó saját tőke </td><td></td><td></td><td>468936</td></tr>
 </table>
 <div class="table-footer"><p>* A Norvég Civil Támogatási Alap nélkül (az adományi keret nem folyik át az Ökotárs költségvetésén).</p></div>
 <div class="table-footer"><p>** A Svájci és Norvég Civil Alapok keretében a konzorciumi partnereknek kifizetett.</p></div>
+
+<div class="table-footer"><p><a href="./attachments/konyvvizsgaloi_jelentes_okotars_2013.pdf">Könyvvizsgálói jelentés letöltése</a></p></div>
+<div class="table-footer"><p><a href="./attachments/Kozhasznusagi_jelentes_2013.pdf">Közhasznúsági jelentés letöltése</a></p></div>
 

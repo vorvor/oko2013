@@ -2,14 +2,16 @@
   $menu = array('nyitolap' => 'Nyitólap',
                 'reporter' => 'Adományi adatbázis',
                 'magunkrol' => 'Magunkról',
-                'penzugyi_jelentesek_hu' => 'Pénzügyi jelentés',
+                'eredmenykimutatas' => 'Pénzügyi jelentés',
                 'koszonetnyilvanitasok' => 'Köszönetnyilvánítások',
                 '1szazalek' => '1%');
 ?>
 <ul id="menu">
     <?php
-    $submenu = array('munkatarsak' => 'Munkatársak',
+    $submenu1 = array('munkatarsak' => 'Munkatársak',
                      'elerhetosegek' => 'Elérhetőségek');
+    $submenu2 = array('eredmenykimutatas' => 'Eredménykimutatás',
+                     'merleg' => 'Mérleg');
     foreach ($menu as $key => $item) {
         $class = '';
         $submenu_print = '';
@@ -26,7 +28,16 @@
         
         if ($key == 'magunkrol') {
           $submenu_print = '<ul id="submenu">';
-          foreach ($submenu as $subkey => $subitem) {
+          foreach ($submenu1 as $subkey => $subitem) {
+            $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . '">' . $subitem . '</a></li>';
+          }
+          $submenu_print.= '</ul>';
+          $subclass = ($class == '') ? 'submenu' : ' submenu';
+        }
+        
+        if ($key == 'eredmenykimutatas') {
+          $submenu_print = '<ul id="submenu">';
+          foreach ($submenu2 as $subkey => $subitem) {
             $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . '">' . $subitem . '</a></li>';
           }
           $submenu_print.= '</ul>';

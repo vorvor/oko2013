@@ -194,9 +194,16 @@ img {
 }
 
 #top-header,
-#footer-bottom{
+#footer-bottom {
   height: 90px;
   background-color: #fb7f0f;
+  color: #fff;
+}
+
+#top-header a,
+#footer-bottom a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .contacts {
@@ -206,23 +213,38 @@ img {
 }
 
 .contact {
-  
+  background-repeat: no-repeat;
   float:left;
+  height: 40px;
 }
 
 .contact .info {
-  margin: 0 16px;
+  margin: 0 20px 0 46px;
   padding-top:15px;
   float: left;
+  
 }
 
-.contact::before {
-  width:43px;
-  height:43px;
-  background: url(../images/header-icon-mail.png);
-  display: block;
-  content: '';
-  float:left;
+
+
+#contact-phone {
+  background-image: url(../images/header-icon-tel.png);
+}
+
+#contact-mail {
+  background-image: url(../images/header-icon-email.png);
+}
+
+#contact-web {
+  background-image: url(../images/header-icon-web.png);
+}
+
+#contact-address {
+  background-image: url(../images/header-icon-venue.png);
+}
+
+#contact-fb {
+  background-image: url(../images/header-icon-fb.png);
 }
 
 
@@ -258,7 +280,7 @@ img {
 
 #header-text {
   float: left;
-  margin: 100px 0 0 8%;
+  margin: 63px 0 0 8%;
   width: 50%;
   color: #caf8c6;
   font-family: 'Open Sans';
@@ -337,7 +359,7 @@ img {
 
 
 #main-content {
-  margin: 66px auto 0;
+  margin: 66px auto;
   clear: both;
   width: 940px;
 }
@@ -357,7 +379,7 @@ img {
 
 #main-content #timeline {
   width: 7px;
-  height: 8600px;
+  height: 7338px;
   background: #a4e3a0;
   margin-top: 16px;
 }
@@ -448,31 +470,22 @@ img {
   float: right;
 }
 
-.month.march {
-  margin-top: 300px;
-}
-
-
-.month.may {
-  margin-top: 800px;
+.month.june {
+  margin-top: 60px;
 }
 
 .month.august {
-  margin-top: 300px;
+  margin-top: 60px;
 }
+
+.month.february {
+  margin-top: 80px;
+}
+
 
 .month.october {
-  margin-top: 300px;
+  margin-top: 60px;
 }
-
-.month.december {
-  margin-top: 1800px;
-}
-
-
-
-
-
 
 
 
@@ -496,10 +509,15 @@ img {
   font-size:2em;
 }
 
-#footer #slider-wrapper {
+#footer #slider {
   width: 1000px;
-  margin: 46px 188px;
+  margin: 14px 188px;
   overflow: hidden;
+}
+
+#footer #slider-title {
+  margin: 50px 0 0 181px;
+  
 }
 
 #footer #slider::before {
@@ -511,22 +529,32 @@ img {
   float: left;
 }
 
-#footer #slider #slides {
-  float: left;
-  font-family: 'Open Sans';
-  width: 70%;
-  margin-left:3%;
-  overflow: hidden;
+#footer #slider ul {
+    padding: 0 0 0 87px;
 }
 
-#footer #slider #slide-tape {
-  width: 20000px;
+#footer #slider ul li.slide {
+    list-style: none;
+    width: 520px !important;
 }
 
-#footer .slide {
-  width: 600px;
-  float: left;
-  margin-right: 100px;
+#footer #slider ul.bjqs-controls {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 71px;
+}
+
+#footer #slider ul.bjqs-controls li.bjqs-prev {
+  display: none;
+}
+
+#footer #slider ul.bjqs-controls li.bjqs-next a {
+  text-indent: -9999px;
+  background: url(../images/sliderbtn.png) no-repeat;
+  width: 39px;
+  height: 39px;
+  display: block;
 }
 
 
@@ -633,38 +661,86 @@ img {
 
 
 
-.penzugyi_jelentesek_hu table th {
+.eredmenykimutatas table th {
   background: #099e76;
   color: #fff;
   padding: 12px;
   text-align: left;
 }
 
-.penzugyi_jelentesek_hu table tr:nth-child(even) {
+.eredmenykimutatas table tr:nth-child(even) {
   background: #a0de9b;
 }
 
-.penzugyi_jelentesek_hu table tr:nth-child(odd) {
+.eredmenykimutatas table tr:nth-child(odd) {
   background: #93d58e;
 }
 
-.penzugyi_jelentesek_hu table td {
+.eredmenykimutatas table td {
   padding: 12px;
 }
 
-.penzugyi_jelentesek_hu table td.lpad {
+.eredmenykimutatas table td.lpad {
   padding-left: 28px;
 }
 
-.penzugyi_jelentesek_hu table th#title {
+.eredmenykimutatas table th#title {
   width: 580px;
 }
 
-.penzugyi_jelentesek_hu table th#amount {
+.eredmenykimutatas table th#amount {
   width: 360px;
 }
 
-.penzugyi_jelentesek_hu .table-footer {
-  
+.eredmenykimutatas table tr.emp {
+  font-weight: bold;
 }
+
+
+.merleg table th {
+  background: #099e76;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+}
+
+.merleg table tr:nth-child(even) {
+  background: #a0de9b;
+}
+
+.merleg table tr:nth-child(odd) {
+  background: #93d58e;
+}
+
+.merleg table td {
+  padding: 12px;
+}
+
+.merleg table td.lpad {
+  padding-left: 28px;
+}
+
+.merleg table th#title {
+  width: 580px;
+}
+
+.merleg table th#prevyear,
+.merleg table th#actyear {
+  width: 360px;
+}
+
+.merleg table tr.emp {
+  font-weight: bold;
+}
+
+.merleg table tr td:nth-child(2),
+.merleg table tr td:nth-child(3) {
+  text-align: right;
+}
+
+.merleg td {
+  border: 1px solid red;
+}
+
+
 

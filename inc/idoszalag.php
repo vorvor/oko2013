@@ -36,6 +36,25 @@
         <div class="item-image"><iframe width="370" height="315" src="http://www.youtube.com/embed/BOzCFL-fDew" frameborder="0" allowfullscreen></iframe></div>
       </div>
     </div>
+    
+    <!-- ----------------------------------------------   ÁPRILIS    ------------------------------------------------------------------ -->
+    <div class="month april">Április</div>
+    
+    
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">NCTA kisprojekt pályázatok beadása</div>
+        <div class="item-body">
+            <p>Április 29-ig lehetett kisprojekt pályázatokat benyújtani a felhívás 7 témakörében:
+            (1) emberi jogok és demokrácia; (2) női jogok és esélyegyenlőség; (3) szervezet- és közösség fejlesztés;
+            (4) ifjúsági és gyermek ügyek; (5) környezetvédelem és fenntartható fejlődés;
+            (6) jóléti szolgáltatások társadalmilag sérülékeny csoportoknak, (7) társadalmilag sérülékeny csoportok megerősítése
+            (fókusz: roma integráció). Nagy érdeklődés mellett a határidőig
+            végül összesen 1029 pályázat érkezett az online pályázati felületen keresztül.</p>
+          </div>
+        <div class="item-image"></div>
+      </div>
+    </div>
   
     
     <div class="item">
@@ -222,45 +241,6 @@
       </div>
     </div>
     
-    <!-- ----------------------------------------------   NOVEMBER   ------------------------------------------------------------------ -->
-    <div class="month november">November</div>
-      
-    <div class="item">
-      <div class="item-content">
-       <div class="item-title">Év Fája díjátadó</div>
-        <div class="item-body">
-          <p>Az Év Fája verseny döntőseit november 29-én ünnepelték meg a fákat nevező szervezetek,
-          családok és települések. A zenés eseményen az Ökotárs Alapítvány több díjat is átadott, és a verseny összes
-          döntőse kapott valamilyen meglepetést. </p>
-          <p>Idén minden eddiginél több, összesen 18 661 szavazat érkezett a 12 döntős fára.
-          Az Év Fája fődíját 4059 szavazattal a <a href="http://evfaja.okotars.hu/fa/2013/egy-mesebeli-ven-vackorfa-avagy-godolloi-maganyos-orias-tortenete">
-          „Mesebeli vén vackorfa, avagy a gödöllői magányos óriás története”</a>
-          címmel nevezett fa nyerte, mely a Szent István Egyetem Botanikus kertjében áll, és amelyet még a XVIII. században
-          999 társával együtt ültetett Grassalkovich Antal gróf. A fa továbbjutott az Európai Év fája verseny döntőjébe is,
-          melyet 2014 februárjában hirdetnek meg. A díjátadón Hős Fa kitüntetést kapott a „Gyümölcsoltó Boldogasszony 303 éves
-          Árpával érő körtefája Solymáron”. Az Országos Erdészeti Egyesület különdíját a Telekiben álló 300 éves berkenye kapta.</p>
-        </div>
-        <div class="item-image"><img src="./images/gödöllői_vadkörte.jpg"></div>
-      </div>
-    </div>
-    
-    
-    
-    <div class="item">
-      <div class="item-content">
-       <div class="item-title">Nyílt levél a civil törvény módosításáról – „kihagyott lehetőségek tárháza”</div>
-        <div class="item-body">
-          <p>A 2014 tavaszán hatályba lépő új Polgári Törvénykönyv rendelkezéseivel való összehangolás végett a
-          kormány október végén az Országgyűlés elé terjesztette a „civil törvény” módosítására vonatkozó javaslatát,
-          amelyet a parlamenti vita lefolytatása után december 2-án fogadtak el a képviselők. Civil szervezetek, köztük az
-          Ökotárs Alapítvány a jogalkotási folyamat előtt és alatt is több ízben tettek részletes szakmai javaslatokat a szabályozás
-          „civilbarátabbá” tételére – sajnos azonban ezekből az ajánlásokból szinte semmi sem tükröződött az elfogadott
-          törvénymódosításban. </p>
-          <p>Az Ökotárs kezdeményezésére ezért 7 civil szervezet <a href="http://okotars.hu/sites/default/files/nyilt_level_a_civil_szervezeteket_erinto_varhato_valtozasokrol.pdf">
-          nyílt levelet tett közzé</a>, melyben megfogalmazták kritikáikat."</p>
-        </div>
-      </div>
-    </div>
     
     
   </div> <!-- items-left -->
@@ -311,7 +291,7 @@
       </div>
     </div>
   
-  
+    
   
     <div class="item">
       <div class="item-content">
@@ -359,27 +339,10 @@
       </div>
     </div>
     
-    <!-- ----------------------------------------------   ÁPRILIS    ------------------------------------------------------------------ -->
-    <div class="month april">Április</div>
     
-    
-    <div class="item">
-      <div class="item-content">
-       <div class="item-title">NCTA kisprojekt pályázatok beadása</div>
-        <div class="item-body">
-            <p>Április 29-ig lehetett kisprojekt pályázatokat benyújtani a felhívás 7 témakörében:
-            (1) emberi jogok és demokrácia; (2) női jogok és esélyegyenlőség; (3) szervezet- és közösség fejlesztés;
-            (4) ifjúsági és gyermek ügyek; (5) környezetvédelem és fenntartható fejlődés;
-            (6) jóléti szolgáltatások társadalmilag sérülékeny csoportoknak, (7) társadalmilag sérülékeny csoportok megerősítése
-            (fókusz: roma integráció). Nagy érdeklődés mellett a határidőig
-            végül összesen 1029 pályázat érkezett az online pályázati felületen keresztül.</p>
-          </div>
-        <div class="item-image"></div>
-      </div>
-    </div>
     
     <!-- ----------------------------------------------   JÚNIUS    ------------------------------------------------------------------ -->
-    <div class="month">Június</div>
+    <div class="month june">Június</div>
     
     
     <div class="item">
@@ -457,6 +420,45 @@
       </div>
     </div>
     
+    <!-- ----------------------------------------------   NOVEMBER   ------------------------------------------------------------------ -->
+    <div class="month november">November</div>
+      
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Év Fája díjátadó</div>
+        <div class="item-body">
+          <p>Az Év Fája verseny döntőseit november 29-én ünnepelték meg a fákat nevező szervezetek,
+          családok és települések. A zenés eseményen az Ökotárs Alapítvány több díjat is átadott, és a verseny összes
+          döntőse kapott valamilyen meglepetést. </p>
+          <p>Idén minden eddiginél több, összesen 18 661 szavazat érkezett a 12 döntős fára.
+          Az Év Fája fődíját 4059 szavazattal a <a href="http://evfaja.okotars.hu/fa/2013/egy-mesebeli-ven-vackorfa-avagy-godolloi-maganyos-orias-tortenete">
+          „Mesebeli vén vackorfa, avagy a gödöllői magányos óriás története”</a>
+          címmel nevezett fa nyerte, mely a Szent István Egyetem Botanikus kertjében áll, és amelyet még a XVIII. században
+          999 társával együtt ültetett Grassalkovich Antal gróf. A fa továbbjutott az Európai Év fája verseny döntőjébe is,
+          melyet 2014 februárjában hirdetnek meg. A díjátadón Hős Fa kitüntetést kapott a „Gyümölcsoltó Boldogasszony 303 éves
+          Árpával érő körtefája Solymáron”. Az Országos Erdészeti Egyesület különdíját a Telekiben álló 300 éves berkenye kapta.</p>
+        </div>
+        <div class="item-image"><img src="./images/gödöllői_vadkörte.jpg"></div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Nyílt levél a civil törvény módosításáról – „kihagyott lehetőségek tárháza”</div>
+        <div class="item-body">
+          <p>A 2014 tavaszán hatályba lépő új Polgári Törvénykönyv rendelkezéseivel való összehangolás végett a
+          kormány október végén az Országgyűlés elé terjesztette a „civil törvény” módosítására vonatkozó javaslatát,
+          amelyet a parlamenti vita lefolytatása után december 2-án fogadtak el a képviselők. Civil szervezetek, köztük az
+          Ökotárs Alapítvány a jogalkotási folyamat előtt és alatt is több ízben tettek részletes szakmai javaslatokat a szabályozás
+          „civilbarátabbá” tételére – sajnos azonban ezekből az ajánlásokból szinte semmi sem tükröződött az elfogadott
+          törvénymódosításban. </p>
+          <p>Az Ökotárs kezdeményezésére ezért 7 civil szervezet <a href="http://okotars.hu/sites/default/files/nyilt_level_a_civil_szervezeteket_erinto_varhato_valtozasokrol.pdf">
+          nyílt levelet tett közzé</a>, melyben megfogalmazták kritikáikat."</p>
+        </div>
+      </div>
+    </div>
     
     <!-- ----------------------------------------------   DECEMBER    ------------------------------------------------------------------ -->
     <div class="month december">December</div>
