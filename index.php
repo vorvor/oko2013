@@ -18,6 +18,12 @@
   else {
     $body_class = 'nyitolap';
   }
+  if (isset($_GET['lang'])) {
+    $lang = $_GET['lang'];
+  } else {
+    $lang = '';
+  }
+  
 ?>
 <body class="<?php print $body_class; ?>">
   <div id="top-header">
@@ -42,9 +48,14 @@
   <div id="header">
     <a id="header-logo" href="index.php"></a>
     <div id="header-text">
-      <h2>Éves jelentés</h2>
+      <h2>
+        <?php ($lang == 'en') ? print 'Annual report 2013' : print 'Éves jelentés'; ?>
+      </h2>
       <p class="text">
-        Az Ökotárs Alapítvány nem nyereségérdekelt, politikától független, a környezet állapotának javulásáért és a hazai civil szféra és lakosság környezeti érzékenységének és tudatosságának fejlesztéséért tevékenykedő szervezet.
+         <?php ($lang == 'en') ? print 'Hungarian Environmental Partnership Foundation is a not-for-profit, politically independent organization promoting environmental improvement and awareness among civil society and the general public.'
+         : print 'Az Ökotárs Alapítvány nem nyereségérdekelt, politikától független, a környezet állapotának javulásáért és a hazai civil szféra és lakosság környezeti érzékenységének és tudatosságának fejlesztéséért tevékenykedő szervezet.';
+         ?>
+        
       </p>
     </div>
   </div>
@@ -52,6 +63,8 @@
     <?php include('inc/mainmenu.inc'); ?>
   </div>
   <div id="main-content">
+    <a href="index.php<?php (isset($_GET['q'])) ? print '?q=' . $_GET['q'] : print ''; ?>">HU</a> |
+    <a href="index.php<?php (isset($_GET['q'])) ? print '?q=' . $_GET['q'] . '&lang=en' : print '?lang=en'; ?>">EN</a>
     <?php (empty($_GET['q']) || $_GET['q'] == 'nyitolap') ? include('inc/idoszalag.php') : include('inc/' . $_GET['q'] . '.php'); ?>
   </div>
   <div id="footer">
@@ -61,24 +74,45 @@
       </div>
       <div id="slider">
         <ul class="bjqs">
-          <li class="slide slide-1 slide-first">
-            ... Ennyire "civil és felhasználóbarát”  pályázati kiírással és lebonyolítással nem találkoztam, mintaértékű, ahogy kialakítottátok a pályázati rendszert.
-          </li>
-          <li class="slide slide-2">
-            ... A projekt során kapott támogatás, a személyes kapcsolattartás szinte szárnyakat ad egy meggyötört, lepattintáshoz  szokott civilnek.
-          </li>
-          <li class="slide slide-2">
-            ... Jóleső érzéssel gondolok vissza az Önök kivételesen segítőkész hozzáállására, amelyhez hasonlót hivatalos szervek részéről hosszú életem során soha nem tapasztalhattam!
-          </li>
-          <li class="slide slide-2">
-            Közösségi összefogással sok minden elérhető. A program hatására nagyobb lett az egymás iránti bizalom.
-          </li>
-          <li class="slide slide-2">
-            Nagyon kevés a hasonló, közösséget is erősítő programok száma. A lakosság lelkesedése és részvétele messze meghaladta várakozásainkat.
-          </li>
-          <li class="slide slide-2">
-            Nagyon kevés a hasonló, közösséget is erősítő programok száma. A lakosság lelkesedése és részvétele messze meghaladta várakozásainkat.
-          </li>
+          <?php if ($lang == '') { ?>
+            <li class="slide slide-1 slide-first">
+              ... Ennyire "civil és felhasználóbarát”  pályázati kiírással és lebonyolítással nem találkoztam, mintaértékű, ahogy kialakítottátok a pályázati rendszert.
+            </li>
+            <li class="slide slide-2">
+              ... A projekt során kapott támogatás, a személyes kapcsolattartás szinte szárnyakat ad egy meggyötört, lepattintáshoz  szokott civilnek.
+            </li>
+            <li class="slide slide-2">
+              ... Jóleső érzéssel gondolok vissza az Önök kivételesen segítőkész hozzáállására, amelyhez hasonlót hivatalos szervek részéről hosszú életem során soha nem tapasztalhattam!
+            </li>
+            <li class="slide slide-2">
+              Közösségi összefogással sok minden elérhető. A program hatására nagyobb lett az egymás iránti bizalom.
+            </li>
+            <li class="slide slide-2">
+              Nagyon kevés a hasonló, közösséget is erősítő programok száma. A lakosság lelkesedése és részvétele messze meghaladta várakozásainkat.
+            </li>
+            <li class="slide slide-2">
+              Nagyon kevés a hasonló, közösséget is erősítő programok száma. A lakosság lelkesedése és részvétele messze meghaladta várakozásainkat.
+            </li>
+          <?php } else { ?>
+            <li class="slide slide-1 slide-first">
+              ...I have never seen such “civil and user”  friendly grant program and management. The design of the program has a real model value.
+            </li>
+            <li class="slide slide-2">
+              ...The support and the personal contact during the project management  gives you wings, specially for the average NGO who got used to being ignored.
+            </li>
+            <li class="slide slide-2">
+              ...Your helpful attitude is exceptional, I never experienced such from official bodies in my life!
+            </li>
+            <li class="slide slide-2">
+              Only a very few programs exist that strengthen communities. The enthusiasm of the citizens far exceeded our expectations.
+            </li>
+            <li class="slide slide-2">
+              With the cooperation of the community we can achieve a low. The project enhanced mutual trust.
+            </li>
+            <li class="slide slide-2">
+              I have never receveid a pence from this Norwegian money and I won’t in the future either. It is not important for me. I believe in the professionalism of Ökotárs; I know that the employees are trustworthy and serious people who have a 20 years of knowledge of the sector and they have worked for it ever since.
+            </li>          
+          <?php }; ?>
         </ul>
       </div>
     </div>

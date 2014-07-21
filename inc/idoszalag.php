@@ -37,6 +37,23 @@
       </div>
     </div>
     
+    <div class="item">
+      <div class="item-content">
+       <div class="item-title">Támogatási döntés a Svájci-Magyar Civil és Ösztöndíj Alap első pályázati felhívásában</div>
+        <div class="item-body">
+            <p>Március 20-án sikeresen lezajlott az utolsó Kisprojekt Elfogadó Bizottsági ülés is, a "szociális szolgáltatások nyújtása"
+            témakörben. Ezzel, és a korábban megtartott üléseken meghozott döntésekkel valamennyi témakörben eredmény született.
+            Ennek megfelelően az Ösztöndíj Alap 9 projektet támogatott a marginalizált helyzetű gyermekek továbbtanulásának elősegítése érdekében,
+            összesen 216 702 000 forinttal, a teljes keretet kimerítve.</p>
+            <p>A Civil Alap, környezeti kihívások témakörében 24 pályázatot talált támogatásra édemesnek a KEB,
+            míg a szociális szolgáltatások témakörben 33 db pályázat kapott lehetőséget, 497 765 149 forint értékben.</p>
+            <p><a href="#">Támogatottak listája</a></p>
+    
+          </div>
+        <div class="item-image"></div>
+      </div>
+    </div>
+    
     <!-- ----------------------------------------------   ÁPRILIS    ------------------------------------------------------------------ -->
     <div class="month april">Április</div>
     
@@ -57,22 +74,7 @@
     </div>
   
     
-    <div class="item">
-      <div class="item-content">
-       <div class="item-title">Támogatási döntés a Svájci-Magyar Civil és Ösztöndíj Alap első pályázati felhívásában</div>
-        <div class="item-body">
-            <p>Március 20-án sikeresen lezajlott az utolsó Kisprojekt Elfogadó Bizottsági ülés is, a "szociális szolgáltatások nyújtása"
-            témakörben. Ezzel, és a korábban megtartott üléseken meghozott döntésekkel valamennyi témakörben eredmény született.
-            Ennek megfelelően az Ösztöndíj Alap 9 projektet támogatott a marginalizált helyzetű gyermekek továbbtanulásának elősegítése érdekében,
-            összesen 216 702 000 forinttal, a teljes keretet kimerítve.</p>
-            <p>A Civil Alap, környezeti kihívások témakörében 24 pályázatot talált támogatásra édemesnek a KEB,
-            míg a szociális szolgáltatások témakörben 33 db pályázat kapott lehetőséget, 497 765 149 forint értékben.</p>
-            <p><a href="#">Támogatottak listája</a></p>
     
-          </div>
-        <div class="item-image"></div>
-      </div>
-    </div>
     
     <!-- ----------------------------------------------   MÁJUS  ------------------------------------------------------------------ -->
     <div class="month may">Május</div>

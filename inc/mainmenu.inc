@@ -1,17 +1,34 @@
 <?php
-  $menu = array('nyitolap' => 'Nyitólap',
+  if ($lang == '') {
+    $menu = array('nyitolap' => 'Nyitólap',
                 'reporter' => 'Adományi adatbázis',
                 'magunkrol' => 'Magunkról',
                 'eredmenykimutatas' => 'Pénzügyi jelentés',
                 'koszonetnyilvanitasok' => 'Köszönetnyilvánítások',
                 '1szazalek' => '1%');
+  } else {
+    $menu = array('nyitolap' => 'Home',
+                'reporter' => 'Grants database',
+                'aboutus' => 'About us',
+                'eredmenykimutatas' => 'Financial report',
+                'koszonetnyilvanitasok' => 'Acknowledgments',
+                '1szazalek' => '1%');
+  }
 ?>
 <ul id="menu">
     <?php
-    $submenu1 = array('munkatarsak' => 'Munkatársak',
+    
+    if ($lang == '') {
+      $submenu1 = array('munkatarsak' => 'Munkatársak',
                      'elerhetosegek' => 'Elérhetőségek');
-    $submenu2 = array('eredmenykimutatas' => 'Eredménykimutatás',
+      $submenu2 = array('eredmenykimutatas' => 'Eredménykimutatás',
                      'merleg' => 'Mérleg');
+    } else {
+      $submenu1 = array('staff' => 'Staff',
+                     'contact' => 'Contact');
+      $submenu2 = array('eredmenykimutatas' => 'Eredménykimutatás',
+                     'merleg' => 'Mérleg');
+    }
     foreach ($menu as $key => $item) {
         $class = '';
         $submenu_print = '';
@@ -26,7 +43,7 @@
           }
         }
         
-        if ($key == 'magunkrol') {
+        if ($key == 'magunkrol' || $key == 'aboutus') {
           $submenu_print = '<ul id="submenu">';
           foreach ($submenu1 as $subkey => $subitem) {
             $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . '">' . $subitem . '</a></li>';

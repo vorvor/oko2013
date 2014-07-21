@@ -578,6 +578,7 @@ img {
 .reporter #search-results {
   display: table;
   margin-top:20px;
+  width: 950px;
 }
 
 .reporter .row {
@@ -589,12 +590,17 @@ img {
 .reporter .field {
   
   padding: 6px;
-  width:14%;
+  width:12%;
   min-height: 16px;
   padding:15px 8px 10px 8px;
   border-right: 1px solid #fff;
   display: table-cell;
     
+}
+
+.reporter #table-header .field.amount {
+  text-align: right;
+  width: 16%;
 }
 
 .reporter #table-header {
