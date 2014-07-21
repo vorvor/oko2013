@@ -86,7 +86,7 @@
     
     
     <!-- ----------------------------------------------   JÚLIUS  ------------------------------------------------------------------ -->
-    <div class="month july">Július</div>
+    <div class="month july">July</div>
     
     
     <div class="item">
@@ -227,19 +227,14 @@
   <div id="items-right">
   
     <!-- ----------------------------------------------   FEBRUÁR    ------------------------------------------------------------------ -->
-    <div class="month february">Február</div>
+    <div class="month february">February</div>
   
     <div class="item">
       <div class="item-content">
-       <div class="item-title">Zöldövezet pályázat 2012/2013 - eredményhirdetés</div>
+       <div class="item-title">Green Belt 2012/2013 - grant results</div>
         <div class="item-body">
-            <p>2006 óta immár hetedik alkalommal pályázhattak helyi civil kezdeményezések és második évben
-            fővárosi társasházak azért, hogy környezetüket szebbé és zöldebbé alakítsák, a helyi lakosság bevonásával,
-            közösségi akció keretében. 2013-ban január 7-ig nyújthatták be a Zöldövezet 2012/2013 pályázati felhíváson
-            induló és a második fordulóba továbbjutott pályázók a közösségi tervezés eredményeként kialakult részletes pályázataikat.
-            Az Adományi bizottság február 15-én döntött:
-            a 41 beérkezett pályázat közül 27 projekt részesült támogatásban, összesen 14 502 000 Ft értékben.</p>
-            <p><a href="#">Támogatottak listája</a></p>
+            <p>This was the seventh year since 2006 that local civil initiatives and (for the second time) condos' communities from the capital could apply to transform their environment making it greener and nicer with the involvement of the local citizens in the framework of a community action. This year, applicants who passed the first phase of the process could submit their full proposals in the second phase until the 7th of January. The plan had to be developed in a participatory, community planning process. The Grants Committee made its decision on the 15th of February: 27 out of the 41 submitted proposalsn were supported with altogether 14 502 000 HUF.</p>
+            <p><a href="#">List of supported projects</a></p>
           </div>
         <div class="item-image"><img src="./images/zö2012_cserje_ultetes_iskolasokkal.jpg"></div>
       </div>
@@ -249,17 +244,9 @@
   
     <div class="item">
       <div class="item-content">
-       <div class="item-title">Elindult az EGT/Norvég Civil Támogatási Alap!</div>
+       <div class="item-title">The EEA/Norwegian NGO Fund launched!</div>
         <div class="item-body">
-            <p>Február 12-én jelentek meg az EGT/Norvég Civil Támogatási Alap új pályázati felhívásai makro-
-            és kisprojektek (ez utóbbiak 7 témakörben), valamint egyéni ösztöndíjas tanulmányutak támogatására.
-            A támogatók meghatározása értelmében a  program átfogó célja, hogy "segítse a magyarországi civil társadalom
-            fejlődését, valamint erősítse részvételét a társadalmi igazságosság, a demokrácia és a fenntartható fejlődés alakításában".
-            Az általános keretek bemutatása mellett az Európai Ifjúsági Központban tartott teltházas nyitóeseményen az alap hazai
-            lebonyolítójának képviseletében az Ökotárs és partnerei ismertették a kiírások részleteit. A támogató országokkal való
-            kétoldalú kapcsolatok erősítését szolgálta 13 norvég és izlandi civil szervezet képviselőjének részvétele: munkájuk bemutatásán
-            túl a délutáni szekcióban "rapid-randi" formában nyílt
-            lehetőség a hazai civilekkel való ismerkedésre és az első kapcsolatfelvételre.</p>
+            <p>The new call for proposals of the NGO Fund was opened on the 12th of February to support macro and micro projects (in 7 thematic areas) and individual internships. The overall objective of the Hungarian NGO Fund is “strengthened civil society development and enhanced contribution to social justice, democracy and sustainable development” as the  Donors defined it. Ökotárs and its partners introduced the general framework and the calls in detail at the full house opening event of the Fund held in the European Youth Centre in Budapest. The participation of 13 NGOs from Norway and Iceland served the other important goal of the programme, strengthening of bilateral partnerships with the Donor states: after their introduction they could meet and make first contact with representatives of Hungarian NGOs at a  successful ""speed dating"" session.</p>
           </div>
         <div class="item-image">FOTÓ:ncta_launch_montazs (NCTA_launch, NCTA_launch1, NCTA_launch2 + logók)"<img src="./images/https://docs.google.com/file/d/0B6OtTwiJJ0fvZWxZYk9HN250eWs/edit?usp=drive_web"></div>
       </div>
@@ -268,15 +255,9 @@
   
     <div class="item">
       <div class="item-content">
-       <div class="item-title">Európai Év Fája verseny</div>
+       <div class="item-title">European Tree of the Year contest</div>
         <div class="item-body">
-            <p>Február 1-29. közt szavazhatott a közönség a 2013-as Európai Év Fája verseny nevezettjeire a
-            www.treeoftheyear.org oldalon. 2013-ban hat ország: Bulgária, Csehország, Írország, Lengyelország,
-            Magyarország és Szlovákia vett részt a versenyben. A fák nem koruk vagy szépségük miatt kerültek a
-            vetélkedőbe, hanem történetüknek és az őket támogató erős közösségeknek köszönhetően.  A 2013-as versenyt
-            ismét egy magyar fa nyerte, mégpedig egy az egri termálfürdő területén élő platán. Az immár harmadjára megrendezett
-            Európai Év Fája verseny e különleges fák segítségével szeretné történelmi és
-            természeti értékeinkre és védelmük fontosságára felhívni a figyelmet.</p>
+            <p>From 1st to the 29th of February could the public vote for the nominees of the European Tree of the Year contest at www.treeoftheyear.org. In 2013 six countries: Bulgaria, Czech Republic, Hungary, Ireland, Poland and Slovakia participated in the contest. Trees were not entered in the competition beacuse of their age or beauty but thanks to their stories and the strong supporting community that nominated them. The goal of the international competition is to present interesting European trees to the public and highlight them as important natural and historical legacy that deserves more attention and better protection. This year a Hungarian tree won the contest again, for the second time in a row: a plane tree living in the area of the thermal bath of Eger.</p>
           </div>
         <div class="item-image"><img src="./images/egri_platan.jpg"></div>
       </div>
@@ -284,10 +265,9 @@
     
     <div class="item">
       <div class="item-content">
-       <div class="item-title">Új munkatárs a Norvég Civil Támogatási Alapnál</div>
+       <div class="item-title">New colleague in the EEA/Norway NGO Fund</div>
         <div class="item-body">
-            <p>Horváth Gergő, korábban a Tudatos Vásárlók Egyesületének munkatársa, februártól az NCTA "zöld"
-            témájú mikroprojektjeinek lebonyolítását koordinálja a az Ökotársnál.</p>
+            <p>Gergő Horváth worked earlier for the Association of Conscious Consumers. From February onwards he joined our staff to coordinate the ""green"" micro projects of the NGO Fund.</p>
           </div>
         <div class="item-image"><img src="./images/hg.jpg"></div>
       </div>
@@ -296,7 +276,7 @@
     
     
     <!-- ----------------------------------------------   JÚNIUS    ------------------------------------------------------------------ -->
-    <div class="month june">Június</div>
+    <div class="month june">June</div>
     
     
     <div class="item">
@@ -310,7 +290,7 @@
     </div>
     
     <!-- ----------------------------------------------   AUGUSZTUS    ------------------------------------------------------------------ -->
-    <div class="month august">Augusztus</div>
+    <div class="month august">August</div>
     
     
     <div class="item">

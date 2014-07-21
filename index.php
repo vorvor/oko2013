@@ -11,17 +11,30 @@
 
 
 </head>
-<?php 
-  if (isset($_GET['q'])) {
-    $body_class = $_GET['q'];
-  }
-  else {
-    $body_class = 'nyitolap';
-  }
+<?php
+  $translate = array('home' => 'nyitolap',
+                     'aboutus' => 'magunkrol',
+                     'staff' => 'munkatarsak',
+                     'contact' => 'elerhetosegek',
+                     'acknowledgements' => 'koszonetnyilvanitasok',
+                     '1percent' => '1szazalek',
+                     'reporter' => 'reporter');
+  
   if (isset($_GET['lang'])) {
     $lang = $_GET['lang'];
   } else {
     $lang = '';
+  }
+  
+  if (isset($_GET['q'])) {
+    if ($lang == 'en') {
+      $body_class = $translate[$_GET['q']];
+    } else {
+      $body_class = $_GET['q'];
+    }
+  }
+  else {
+    $body_class = 'nyitolap';
   }
   
 ?>
@@ -62,10 +75,23 @@
   <div id="main-menu">
     <?php include('inc/mainmenu.inc'); ?>
   </div>
-  <div id="main-content">
+  <div id="lang-switcher">
+    <?php /*
     <a href="index.php<?php (isset($_GET['q'])) ? print '?q=' . $_GET['q'] : print ''; ?>">HU</a> |
     <a href="index.php<?php (isset($_GET['q'])) ? print '?q=' . $_GET['q'] . '&lang=en' : print '?lang=en'; ?>">EN</a>
-    <?php (empty($_GET['q']) || $_GET['q'] == 'nyitolap') ? include('inc/idoszalag.php') : include('inc/' . $_GET['q'] . '.php'); ?>
+    */ ?>
+    <a href="index.php">HU</a> |
+    <a href="index.php?lang=en">EN</a>
+  </div>
+  <div id="main-content">
+    
+    <?php
+      if ($lang == '') {
+        (empty($_GET['q']) || $_GET['q'] == 'nyitolap') ? include('inc/idoszalag.php') : include('inc/' . $_GET['q'] . '.php');
+      } else {
+       (empty($_GET['q']) || $_GET['q'] == 'home') ? include('inc/timeline.php') : include('inc/' . $_GET['q'] . '.php');
+      }
+    ?>
   </div>
   <div id="footer">
     <div id="slider-wrapper">

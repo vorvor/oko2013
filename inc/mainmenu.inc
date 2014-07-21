@@ -7,12 +7,12 @@
                 'koszonetnyilvanitasok' => 'Köszönetnyilvánítások',
                 '1szazalek' => '1%');
   } else {
-    $menu = array('nyitolap' => 'Home',
+    $menu = array('home' => 'Home',
                 'reporter' => 'Grants database',
                 'aboutus' => 'About us',
                 'eredmenykimutatas' => 'Financial report',
-                'koszonetnyilvanitasok' => 'Acknowledgments',
-                '1szazalek' => '1%');
+                'acknowledgements' => 'Acknowledgments',
+                '1percent' => '1%');
   }
 ?>
 <ul id="menu">
@@ -38,15 +38,20 @@
             $class = 'active';
           }
         } else {
-          if ($key == 'nyitolap') {
+          if ($key == 'nyitolap' || $key == 'home') {
             $class = 'active';
           }
+        }
+        
+        $menulink = '';
+        if ($lang !== '') {
+          $menulink = '&lang=en';
         }
         
         if ($key == 'magunkrol' || $key == 'aboutus') {
           $submenu_print = '<ul id="submenu">';
           foreach ($submenu1 as $subkey => $subitem) {
-            $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . '">' . $subitem . '</a></li>';
+            $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . $menulink . '">' . $subitem . '</a></li>';
           }
           $submenu_print.= '</ul>';
           $subclass = ($class == '') ? 'submenu' : ' submenu';
@@ -55,12 +60,13 @@
         if ($key == 'eredmenykimutatas') {
           $submenu_print = '<ul id="submenu">';
           foreach ($submenu2 as $subkey => $subitem) {
-            $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . '">' . $subitem . '</a></li>';
+            $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . $menulink . '">' . $subitem . '</a></li>';
           }
           $submenu_print.= '</ul>';
           $subclass = ($class == '') ? 'submenu' : ' submenu';
         }
-        print '<li class="' . $class . $subclass . '"> <a href="index.php?q=' . $key . '">' . $item . '</a>' . $submenu_print . '</li>';
+        
+        print '<li class="' . $class . $subclass . '"> <a href="index.php?q=' . $key . $menulink . '">' . $item . '</a>' . $submenu_print . '</li>';
     }
     ?>
 </ul>

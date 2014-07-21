@@ -88,12 +88,35 @@ function read_reports() {
 }
 
 function theme($topic, $data, $lang = 'hu') {
-  global $topics, $even, $curr;
+  global $topics, $even, $curr, $lang;
   
   $project_name = isset($data['project_name_hu']) ? $data['project_name_hu'] : 'nincs adat';
+  if ($lang == 'en') {
+    $project_name = isset($data['project_name_en']) ? $data['project_name_en'] : $project_name;
+  }
+  
+  
+  
   $org_name = isset($data['org_name_hu']) ? $data['org_name_hu'] : 'nincs adat';
+  if ($lang == 'en') {
+    $org_name = isset($data['org_name_en']) ? $data['org_name_en'] : $org_name;
+  }
+  
+  
+  
+  
+  
   $settlement = (isset($data['settlement'])) ? $data['settlement'] : 'nincs_adat';
+  
   $summary = (isset($data['project_sum_hu'])) ? $data['project_sum_hu'] : 'nincs_adat';
+  if ($lang == 'en') {
+    $summary = (isset($data['project_sum_en'])) ? $data['project_sum_en'] : $summary;
+  }
+  
+  
+  
+  
+  
   if (isset($data['amount_huf'])) {
     $amount = preg_replace("/[^0-9]/","",$data['amount_huf']);
   }
@@ -105,15 +128,26 @@ function theme($topic, $data, $lang = 'hu') {
     $amount = 'nincs adat';
   }
   
-  if ($curr[$topic] == 'eur') {
-    $newamount = $amount * 298.8;
-    //print $topic . ':' . $curr[$topic] . '|' . $amount .'|' . $newamount . '<br />';
+  if ($lang == '') {
+    if ($curr[$topic] == 'eur') {
+      $newamount = $amount * 298.8;
+      //print $topic . ':' . $curr[$topic] . '|' . $amount .'|' . $newamount . '<br />';
+    } else {
+      $newamount = $amount * 1;
+    }
+    $newamount = number_format($newamount, 0,'',' ') . ' Ft';
   } else {
-    $newamount = $amount * 1;
+    if ($curr[$topic] == 'huf') {
+      $newamount = $amount / 298.8;
+      //print $topic . ':' . $curr[$topic] . '|' . $amount .'|' . $newamount . '<br />';
+    } else {
+      $newamount = $amount * 1;
+    }
+    $newamount = number_format($newamount, 0,'',' ') . ' Eur';
   }
   
-  $newamount = number_format($newamount, 0,'',' ');
-  $amount = $newamount . ' Ft';
+  
+  $amount = $newamount;
   
   if ($even == 'true') {
     $rowclass = 'even';

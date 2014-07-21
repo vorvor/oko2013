@@ -25,40 +25,40 @@
 			</td>
 		</tr>
 		<tr class="with--img">
-			<td><img class="l" src="/sites/default/files/imce/foto_mv.jpg"><strong>Veronika Móra</strong><br>
+			<td><img class="l" src="./inc/munkatarsak_files/foto_mv.jpg"><strong>Veronika Móra</strong><br>
 			director<br>
 			<a href="mailto:move@okotars.hu">move@okotars.hu</a></td>
-			<td><img class="l" src="/sites/default/files/imce/foto_fz.jpg"> <strong>Zsuzsa Foltányi</strong><br>
+			<td><img class="l" src="./inc/munkatarsak_files/foto_fz.jpg"> <strong>Zsuzsa Foltányi</strong><br>
 			strategic advisor, biologist-chemical engineer, member of the grants committee and the board<br>
 			<a href="mailto:foltanyi@okotars.hu">foltanyi@okotars.hu</a></td>
-			<td><img height="88" src="/sites/default/files/imce/csoli_virag.jpg" width="96"> <strong>Virág Csóli</strong><br>
+			<td><img height="88" src="./inc/munkatarsak_files/csoli_virag.jpg" width="96"> <strong>Virág Csóli</strong><br>
 			NGO grant program manager<br>
 			<a href="mailto:csoli.virag@okotars.hu" target="_blank">csoli.virag@okotars.hu</a></td>
 		</tr>
 		<tr class="with--img">
-			<td><img height="96" src="/sites/default/files/imce/hg.jpg" width="96"><strong>Gergő Horváth</strong><br>
+			<td><img height="96" src="./inc/munkatarsak_files/hg.jpg" width="96"><strong>Gergő Horváth</strong><br>
 			NGO grant program manager<br>
 			<a href="mailto:gergo@okotars.hu">gergo@okotars.hu</a></td>
-			<td><img height="101" src="/sites/default/files/imce/HPIM8472.JPG" width="96"><strong>Roland Kelemen Varga </strong><br>
+			<td><img height="101" src="./inc/munkatarsak_files/HPIM8472.JPG" width="96"><strong>Roland Kelemen Varga </strong><br>
 			NGO Grant program manager<br>
 			<a href="mailto:kelemen.varga@okotars.hu">kelemen.varga@okotars.hu</a></td>
-			<td><img height="96" src="/sites/default/files/imce/oravecz_agnes.jpg" width="96"><strong>Ágnes Oravecz</strong><br>
+			<td><img height="96" src="./inc/munkatarsak_files/oravecz_agnes.jpg" width="96"><strong>Ágnes Oravecz</strong><br>
 			NGO Grant program coordinator<br>
 			<a href="mailto:oravecz.agnes@okotars.hu">oravecz.agnes@okotars.hu</a></td>
 		</tr>
 		<tr class="with--img">
-			<td><img class="l" src="/sites/default/files/imce/foto_se.jpg"><strong>Éva Sólyom </strong><br>
+			<td><img class="l" src="./inc/munkatarsak_files/foto_se.jpg"><strong>Éva Sólyom </strong><br>
 			director's assistant, Tree of the Year contest<br>
 			<a href="mailto:solyom@okotars.hu">solyom@okotars.hu</a></td>
-			<td><img class="l" src="/sites/default/files/imce/foto_bg.jpg"><strong>György Balázs</strong><br>
+			<td><img class="l" src="./inc/munkatarsak_files/foto_bg.jpg"><strong>György Balázs</strong><br>
 			financial manager<br>
 			<a href="mailto:gybalazs@okotars.hu">gybalazs@okotars.hu</a></td>
-			<td><img class="l" src="/sites/default/files/imce/foto_nk.jpg"><strong>Krisztián Németh</strong><br>
+			<td><img class="l" src="./inc/munkatarsak_files/foto_nk.jpg"><strong>Krisztián Németh</strong><br>
 			assistant<br>
 			<a href="mailto:nemeth.krisztian@okotars.hu">nemeth.krisztian@okotars.hu</a></td>
 		</tr>
 		<tr class="with--img">
-			<td><img src="/sites/default/files/imce/foto_tn.jpg" style="width:96px"><strong>Nóra Tokodi</strong><br>
+			<td><img src="./inc/munkatarsak_files/foto_tn.jpg" style="width:96px"><strong>Nóra Tokodi</strong><br>
 			office manager, Greenbelt program manager<br>
 			<a href="mailto:tokodi@okotars.hu">tokodi@okotars.hu</a><br>
 			<a href="mailto:zoldovezet@okotars.hu">zoldovezet@okotars.hu</a></td>
@@ -72,15 +72,15 @@
 			</td>
 		</tr>
 		<tr class="with--img">
-			<td><img src="/sites/default/files/imce/foto_hm.jpg" style="width:96px"><strong>Mátyás Hartman</strong><br>
+			<td><img src="./inc/munkatarsak_files/foto_hm.jpg" style="width:96px"><strong>Mátyás Hartman</strong><br>
 			master of agricultural sciences, founder of the GAU Green Circle (Gödöllő), professor of the GAU Institute for Environmental Protection and Landscape Management</td>
-			<td><img src="/sites/default/files/imce/foto_pl.jpg" style="width:96px"><strong>László Potozky</strong><br>
+			<td><img src="./inc/munkatarsak_files/foto_pl.jpg" style="width:96px"><strong>László Potozky</strong><br>
 			biologist, teacher, director of Fundatia pentru Parteneriat (Romanian member of EPSD)</td>
-			<td><img src="/sites/default/files/imce/varadie.jpg" style="height:126px; width:96px"><strong>Eszter Váradi</strong><br>
+			<td><img src="./inc/munkatarsak_files/varadie.jpg" style="height:126px; width:96px"><strong>Eszter Váradi</strong><br>
 			economist, project manager expert, supervisory board president of the Hungarian Friends of Minerals</td>
 		</tr>
 		<tr class="with--img">
-			<td><img src="/sites/default/files/imce/foto_fzo.jpg" style="width: 96px;"><strong>Dr. Zoltán Farády</strong><br>
+			<td><img src="./inc/munkatarsak_files/foto_fzo.jpg" style="width: 96px;"><strong>Dr. Zoltán Farády</strong><br>
 			doctor, economist</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
