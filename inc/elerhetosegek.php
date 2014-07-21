@@ -49,11 +49,9 @@
 
 <p>European Greenways Association (Európai Zöldutak Egyesülete)<br>
 <a href="http://www.aevv-egwa.org/" target="_blank">www.aevv-egwa.org</a><br>
-<br>
-Kerékpáros Magyarország Szövetség<br>
-<a href="http://kmsz.hu/" target="_blank">http://kmsz.hu</a></p>
+</p>
 
-<h2>Az&nbsp;EPSD&nbsp;keretében együttműködünk a közép-európai térségben tevékenykedő testvér-alapítványainkkal:</h2>
+<h2>Az&nbsp;EPA&nbsp;keretében együttműködünk a közép-európai térségben tevékenykedő testvér-alapítványainkkal:</h2>
 
 <p><strong>Szlovákia – Nadácia Ekopolis</strong></p>
 

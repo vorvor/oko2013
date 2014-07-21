@@ -97,6 +97,7 @@
 			kertészmérnök, könyvvizsgáló, az Adó-és Közgazdasági Tanácsadó Kft. könyvvizsgálója</td>
 			<td>&nbsp;</td>
 		</tr>
+                <!--
 		<tr class="with--title">
 			<td colspan="3">
 			<h2>Korábbi munkatársaink, segítőink és támogatóink</h2>
@@ -342,7 +343,7 @@
 			Zellei Anett<br>
 			Zrupka Bea<br>
 			Zsurzs Kati</strong></td>
-		</tr>
+		</tr>-->
 	</tbody>
 </table>
 </div></div></div>  </div>

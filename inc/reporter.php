@@ -22,7 +22,7 @@ function read_reports() {
                 'svajcfix' => 'title_hu,empty,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_en,project_sum_hu,state,amount_huf,id_code,empty,emty,emty,emty,settlement',
                 'zoldfix' => 'id,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_hu,project_sum_en,state,settlement,amount_huf');
   
-  for ($c = 0; $c < 4; $c++) {
+  for ($c = 0; $c < 6; $c++) {
     
 
     $datas = array_map('str_getcsv', file('./reports/' . $files[$c] . '.csv'));
