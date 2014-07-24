@@ -10,7 +10,7 @@
     $menu = array('home' => 'Home',
                 'reporter' => 'Grants database',
                 'aboutus' => 'About us',
-                'eredmenykimutatas' => 'Financial report',
+                'activitystatement' => 'Financial report',
                 'acknowledgements' => 'Acknowledgments',
                 '1percent' => '1%');
   }
@@ -26,8 +26,8 @@
     } else {
       $submenu1 = array('staff' => 'Staff',
                      'contact' => 'Contact');
-      $submenu2 = array('eredmenykimutatas' => 'Eredménykimutatás',
-                     'merleg' => 'Mérleg');
+      $submenu2 = array('activitystatement' => 'Activity statement',
+                     'balancesheet' => 'Balance sheet');
     }
     foreach ($menu as $key => $item) {
         $class = '';
@@ -57,7 +57,7 @@
           $subclass = ($class == '') ? 'submenu' : ' submenu';
         }
         
-        if ($key == 'eredmenykimutatas') {
+        if ($key == 'eredmenykimutatas' || $key == 'activitystatement') {
           $submenu_print = '<ul id="submenu">';
           foreach ($submenu2 as $subkey => $subitem) {
             $submenu_print.= '<li class="' . $class . '"> <a href="index.php?q=' . $subkey . $menulink . '">' . $subitem . '</a></li>';

@@ -18,9 +18,7 @@
                      'contact' => 'elerhetosegek',
                      'acknowledgements' => 'koszonetnyilvanitasok',
                      '1percent' => '1szazalek',
-                     'reporter' => 'reporter',
-                     'activitystatement' => 'eredmenykimutatas',
-                     'balancesheet' => 'merleg');
+                     'reporter' => 'reporter');
   
   if (isset($_GET['lang'])) {
     $lang = $_GET['lang'];
