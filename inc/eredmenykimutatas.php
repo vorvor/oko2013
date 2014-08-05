@@ -3,11 +3,11 @@
 <table><tr><th id="title" colspan="2">Megnevezés</th><th id="amount" colspan="3">ezer Forintban</th></tr>
 <tr><td><strong>A.</strong></td><td><strong>Saját tőke nyitó összege</td><td></td><td></td><td><strong>444808</strong></td></tr>
 <tr><td><strong>B.</strong></td><td><strong><strong>Bevételek</strong></td><td></td><td></td><td></td></tr>
-<tr><td></td><td>1.Közhasznú müködésre kapott támogatás</td><td></td><td></td><td></td></tr>
-<tr><td></td><td>2.Pályázati uton elnyert támogatás</td><td></td><td>715567</td><td></td></tr>
+<tr><td></td><td>1.Közhasznú működésre kapott támogatás</td><td></td><td></td><td></td></tr>
+<tr><td></td><td>2.Pályázati úton elnyert támogatás</td><td></td><td>715567</td><td></td></tr>
 <tr><td></td><td>3 Céltevékenység szerinti bevétel</td><td></td><td>706</td><td></td></tr>
 <tr><td></td><td>4.Vállalkozási bevétel</td><td></td><td>5261</td><td></td></tr>
-<tr><td></td><td>5.Gazdálkodó szervezetektől kapott támog</td><td></td><td>20438</td><td></td></tr>
+<tr><td></td><td>5.Gazdálkodó szervezetektől kapott támogatás</td><td></td><td>20438</td><td></td></tr>
 <tr><td></td><td>6. NAV 1 %</td><td></td><td>102</td><td></td></tr>
 <tr><td></td><td>7. Pénzügyi műveletek bevételei</td><td></td><td>28683</td><td></td></tr>
 <tr><td></td><td><strong>Összes bevétel</strong></td><td></td><td></td><td><strong>770757</strong></td></tr>
@@ -26,10 +26,10 @@
 
 <tr class="emp"><td></td><td>8. Kifizetett adományok</td><td></td><td>665460</td><td></td></tr>
 <tr><td></td><td class="lpad">Belföldi adományok *</td><td>551042</td><td></td><td></td></tr>
-<tr><td></td><td class="lpad">Továbbitott adományok**</td><td>114418</td><td></td><td></td></tr>
+<tr><td></td><td class="lpad">Továbbított adományok**</td><td>114418</td><td></td><td></td></tr>
 
 <tr><td></td><td>9. Tárgyi eszköz és amortizáció</td><td></td><td>3592</td><td></td></tr>
-<tr><td></td><td>10. Pénzügyi müveletek költsége</td><td></td><td>7032</td><td></td></tr>
+<tr><td></td><td>10. Pénzügyi műveletek költsége</td><td></td><td>7032</td><td></td></tr>
 <tr><td></td><td>11.Egyéb ráfordítás</td><td></td><td>700</td><td></td></tr>
 <tr><td></td><td><strong>Összes költség</strong></td><td></td><td></td><td><strong>746829</strong></td></tr>
 

@@ -75,6 +75,18 @@
 }
 
 @font-face {
+    font-family: 'Open Sansi';
+    src:  url('../font/opensans-italic-webfont.eot');
+    src:  url('../font/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../font/opensans-italic-webfont.woff') format('woff'),
+          url('../font/opensans-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
@@ -93,7 +105,7 @@
   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans B';
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzBa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
@@ -110,18 +122,7 @@
   font-weight: 300;
   src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxrsuoFAk0leveMLeqYtnfAY.woff) format('woff');
 }
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBtIh4imgI8P11RFo6YPCPC0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 600;
-  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxmWeb5PoA5ztb49yLyUzH1A.woff) format('woff');
-}
+
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
@@ -144,8 +145,8 @@
 
 
 body {
-  font-family: 'ronniaregular';
-  
+  font-family: 'Open Sans';
+  color: #228268;
 }
 
 h1, h2, h3 {
@@ -219,10 +220,10 @@ img {
 }
 
 .contact .info {
-  margin: 0 20px 0 46px;
+  margin: 0 6px 0 46px;
   padding-top:15px;
   float: left;
-  
+  font-family: 'Open Sans B';
 }
 
 
@@ -283,7 +284,7 @@ img {
   margin: 63px 0 0 8%;
   width: 50%;
   color: #caf8c6;
-  font-family: 'Open Sans';
+  font-family: 'Open Sansi';
   line-height: 1.4em;
 }
 
@@ -532,6 +533,7 @@ img {
 
 #footer #slider ul {
     padding: 0 0 0 87px;
+    font-family: Open Sansi;
 }
 
 #footer #slider ul li.slide {
@@ -619,6 +621,15 @@ img {
   background: #93d58e;
 }
 
+.reporter .row .field {
+  color: #333333;
+  line-height: 1.3em;
+}
+
+.reporter .row .field.amount {
+  text-align: right;
+}
+
 
 
 
@@ -677,6 +688,10 @@ img {
   text-align: left;
 }
 
+.eredmenykimutatas table th#amount {
+    text-align: right;
+}
+
 .eredmenykimutatas table tr:nth-child(even) {
   background: #a0de9b;
 }
@@ -729,6 +744,11 @@ img {
   color: #fff;
   padding: 12px;
   text-align: left;
+}
+
+.merleg table th#prevyear,
+.merleg table th#actyear {
+    text-align: right;
 }
 
 .merleg table tr:nth-child(even) {

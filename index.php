@@ -64,7 +64,7 @@
     <a id="header-logo" href="index.php"></a>
     <div id="header-text">
       <h2>
-        <?php ($lang == 'en') ? print 'Annual report 2013' : print 'Éves jelentés'; ?>
+        <?php ($lang == 'en') ? print 'Annual report 2013' : print 'Éves jelentés 2013'; ?>
       </h2>
       <p class="text">
          <?php ($lang == 'en') ? print 'Hungarian Environmental Partnership Foundation is a not-for-profit, politically independent organization promoting environmental improvement and awareness among civil society and the general public.'

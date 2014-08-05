@@ -9,7 +9,7 @@
       <div class="item-content">
        <div class="item-title">The evaluation of the environmental applications received in the Swiss-Hungarian NGO Block Grant and Scholarship Fund is finished</div>
         <div class="item-body">
-            <p>On the 31st of January the Small Project Approval Committee (SPAC) responsible for the thematic area ""responses to environmental concerns"" has made it's supporting decision. 99 application was submitted to the call announced in 2012. After the formal screening 92 of them was assessed. The SPAC supported altogether 24 applications with 272 609 503 HUF in the small (2-10 thsd CHF) medium (10-50 thsd CHF) and macro (50-100 thsd CHF) categories.</p>
+            <p>On the 31st of January the Small Project Approval Committee (SPAC) responsible for the thematic area "responses to environmental concerns" has made it's supporting decision. 99 application was submitted to the call announced in 2012. After the formal screening 92 of them was assessed. The SPAC supported altogether 24 applications with 272 609 503 HUF in the small (2-10 thsd CHF) medium (10-50 thsd CHF) and macro (50-100 thsd CHF) categories.</p>
             <p><a href="#">List of supported projects</a></p>
           </div>
         <div class="item-image"><img src="./images/swiss_contribution_magyar.jpg"></div>
@@ -23,7 +23,11 @@
       <div class="item-content">
        <div class="item-title">EEA/Norway NGO Fund road show</div>
         <div class="item-body">
-            <p>In the first half of the application period the program managers of the operating foundations held information events and project planning workshops in 23 cities and towns, including all county seats.  Altogether several hundred NGOs' representatives participated at the events. A video was shot about the project planning workshop as well, with the purpose to help project development and proposal writing with more lively methods beyond the written words. The video is available on our youtube channel (LINK https://www.youtube.com/watch?v=BOzCFL-fDew#t=1)  and the site of the program (LINK http://norvegcivilalap.hu/hu/node/865)"</p>
+            <p>In the first half of the application period the program managers of the operating foundations held information events and
+            project planning workshops in 23 cities and towns, including all county seats.  Altogether several hundred NGOs'
+            representatives participated at the events. A video was shot about the project planning workshop as well, with the
+            purpose to help project development and proposal writing with more lively methods beyond the written words.
+            </p>
           </div>
         <div class="item-image"><iframe width="370" height="315" src="http://www.youtube.com/embed/BOzCFL-fDew" frameborder="0" allowfullscreen></iframe></div>
       </div>
@@ -33,7 +37,7 @@
       <div class="item-content">
        <div class="item-title">Funding decisions in the first call of the Swiss-Hungarian NGO Block Grant and Scholarship Fund</div>
         <div class="item-body">
-            <p>On the 20th of March the Small Project Approval Committeeof the ""provision of social services"" thematic area held its second meeting, and thus, the funding  decisions were taken in all thematic areas. The Scholarship Fund used its full allocation to support 9 projects altogether with 216 702 000 HUF to help marginalized children starting or finishing secondary level education. In the framework of the NGO Block Grant 24 applications were supported in the environmental thematic area while 33 projects were supported in the social services area, altogether with 497 765 149 HUF.</p>
+            <p>On the 20th of March the Small Project Approval Committeeof the "provision of social services" thematic area held its second meeting, and thus, the funding  decisions were taken in all thematic areas. The Scholarship Fund used its full allocation to support 9 projects altogether with 216 702 000 HUF to help marginalized children starting or finishing secondary level education. In the framework of the NGO Block Grant 24 applications were supported in the environmental thematic area while 33 projects were supported in the social services area, altogether with 497 765 149 HUF.</p>
             <p><a href="#">Supported projects</a></p>
     
           </div>
@@ -145,7 +149,7 @@
       
     
     <!-- ----------------------------------------------   SZEMPTEMBER  ------------------------------------------------------------------ -->
-    <div class="month september">Semptember</div>
+    <div class="month september">September</div>
     
     
     <div class="item">
@@ -168,8 +172,8 @@
          
         </div>
         <div class="item-image"><img src="./images/usaid_MO_2012.png"></div>
-        <div class="item-attachment"><a href="./attachments/https://docs.google.com/file/d/0B6OtTwiJJ0fvVWVNZGtLUnhadWc/edit?usp=drive_web">
-          SZERVEZETEK FENNTARTHATÓSÁGI MUTATÓJA 2012-BEN – MAGYARORSZÁG - 2013. június</a></div>
+        <div class="item-attachment"><a href="http://www.usaid.gov/sites/default/files/documents/1863/HUN.pdf">
+          2012 CSO Index, Hungary - June 2013</a></div>
       </div>
     </div>
     
@@ -178,8 +182,11 @@
       <div class="item-content">
        <div class="item-title">Public voting has started in the Tree of the Year contest</div>
         <div class="item-body">
-          <p>People could casts their vote for their favorite tree in the Tree of the Year contest 2013 from the 10th of September until the 5th of November.</p>
-          <p>Out of the 41 trees nominated by private persons, NGOs, municipalities, schools, and other insitutions, the expert jury of Ökotárs selected those 12 finalists, which competed for the public votes, organized again online at http://evfaja.okotars.hu. The tree receiving the most votes became the Tree of the Year of Hungary in 2013 again.</p>
+          <p>People could casts their vote for their favorite tree in the Tree of the Year contest 2013 from the 10th of September
+          until the 5th of November.</p>
+          <p>Out of the 41 trees nominated by private persons, NGOs, municipalities, schools, and other insitutions,
+          the expert jury of Ökotárs selected those 12 finalists, which competed for the public votes, organized again
+          online at <a href="http://evfaja.okotars.hu">http://evfaja.okotars.hu</a>. The tree receiving the most votes became the Tree of the Year of Hungary in 2013 again.</p>
        </div>
       </div>
     </div>
@@ -246,7 +253,7 @@
       <div class="item-content">
        <div class="item-title">The EEA/Norwegian NGO Fund launched!</div>
         <div class="item-body">
-            <p>The new call for proposals of the NGO Fund was opened on the 12th of February to support macro and micro projects (in 7 thematic areas) and individual internships. The overall objective of the Hungarian NGO Fund is “strengthened civil society development and enhanced contribution to social justice, democracy and sustainable development” as the  Donors defined it. Ökotárs and its partners introduced the general framework and the calls in detail at the full house opening event of the Fund held in the European Youth Centre in Budapest. The participation of 13 NGOs from Norway and Iceland served the other important goal of the programme, strengthening of bilateral partnerships with the Donor states: after their introduction they could meet and make first contact with representatives of Hungarian NGOs at a  successful ""speed dating"" session.</p>
+            <p>The new call for proposals of the NGO Fund was opened on the 12th of February to support macro and micro projects (in 7 thematic areas) and individual internships. The overall objective of the Hungarian NGO Fund is “strengthened civil society development and enhanced contribution to social justice, democracy and sustainable development” as the  Donors defined it. Ökotárs and its partners introduced the general framework and the calls in detail at the full house opening event of the Fund held in the European Youth Centre in Budapest. The participation of 13 NGOs from Norway and Iceland served the other important goal of the programme, strengthening of bilateral partnerships with the Donor states: after their introduction they could meet and make first contact with representatives of Hungarian NGOs at a  successful "speed dating" session.</p>
           </div>
         <div class="item-image">FOTÓ:ncta_launch_montazs (NCTA_launch, NCTA_launch1, NCTA_launch2 + logók)"<img src="./images/https://docs.google.com/file/d/0B6OtTwiJJ0fvZWxZYk9HN250eWs/edit?usp=drive_web"></div>
       </div>
@@ -267,7 +274,7 @@
       <div class="item-content">
        <div class="item-title">New colleague in the EEA/Norway NGO Fund</div>
         <div class="item-body">
-            <p>Gergő Horváth worked earlier for the Association of Conscious Consumers. From February onwards he joined our staff to coordinate the ""green"" micro projects of the NGO Fund.</p>
+            <p>Gergő Horváth worked earlier for the Association of Conscious Consumers. From February onwards he joined our staff to coordinate the "green" micro projects of the NGO Fund.</p>
           </div>
         <div class="item-image"><img src="./images/hg.jpg"></div>
       </div>
@@ -283,7 +290,14 @@
       <div class="item-content">
        <div class="item-title">Assessment and interpretation of the new "Noprofit Act" - country tour</div>
         <div class="item-body">
-            <p>A roadshow was organized in May-June to introduce to NGOs the expert assessment of the new Nonprofit Actand the related survey made by Ökotárs earlier. The events were held in Békéscsaba, Veszprém, Eger, Győr, Nyíregyháza, Szeged, Miskolc, Zalaegerszeg, Debrecen, Pécs and Budapest. We didn't only aim at presenting our work but also to collect ideas and feedback to finalize the package of amendments developed (http://civiljogok.hu/hirek/201304/24/hogyan-kellene-modositani-civil-szervezetekkel-kapcsolatos-jogszabalyi-rendelkezesek). The forums were good platforms to exchange views and several exiting new ideas came up, primarly related to the public benefit status as the organizations had to apply the new rules in relation to their 2012 annual reports for the first time exactly at that period.</p>
+            <p>A roadshow was organized in May-June to introduce to NGOs the expert assessment of the new Nonprofit
+            Actand the related survey made by Ökotárs earlier. The events were held in Békéscsaba, Veszprém, Eger,
+            Győr, Nyíregyháza, Szeged, Miskolc, Zalaegerszeg, Debrecen, Pécs and Budapest. We didn't only aim at presenting our work
+            but also to collect ideas and feedback to finalize the package of amendments developed
+            (<a href="http://civiljogok.hu/hirek/201304/24/hogyan-kellene-modositani-civil-szervezetekkel-kapcsolatos-jogszabalyi-rendelkezesek">http://civiljogok.hu/hirek/201304/24/hogyan-kellene-modositani-civil-szervezetekkel-kapcsolatos-jogszabalyi-rendelkezesek</a>).
+            The forums were good platforms to exchange views and several exiting new ideas came up, primarly related to the public benefit
+            status as the organizations had to apply the new rules in relation to their 2012 annual reports for the first time exactly at
+            that period.</p>
           </div>
         <div class="item-image"></div>
       </div>
@@ -327,7 +341,7 @@
       <div class="item-content">
        <div class="item-title">Deadline for applications in the Swiss-Hungarian NGO Block Grant</div>
         <div class="item-body">
-            <p>Applications could be submitted until the 28 of October to the NGO Block Grant of the Swiss Contribution. By this date, we received 173 applications in the thematic area ""provision of social services"" and 65 in the area ""responses to environmental concerns"". After pre-screening 2 proposals were rejected in the both thematic areas, and the assessors started to evaluate the others.</p>
+            <p>Applications could be submitted until the 28 of October to the NGO Block Grant of the Swiss Contribution. By this date, we received 173 applications in the thematic area "provision of social services" and 65 in the area "responses to environmental concerns". After pre-screening 2 proposals were rejected in the both thematic areas, and the assessors started to evaluate the others.</p>
           </div>
         
         <div class="item-image"></div>
@@ -341,9 +355,16 @@
       <div class="item-content">
        <div class="item-title">Tree of the Year award ceremony</div>
         <div class="item-body">
-          <p>On the 29 of November we celebrated the finalists of the Tree of the Year contest together with the towns, organizations and families who nominated them. Ökotárs awarded several trees and all finalists received a gift.</p>
-          <p>This year, the ever greatest number of votes, 18 661 were cast for the 12 finalist trees. The Tree of the Year nominated with the title of ""The legendary old wild pear, or the story of the lonely giant"" won the contest with 4059 votes. This tree stands in the botanical garden of the Saint István University, and it was planted by Count Grassalkovich in the 18th century with another 999 wild pears. By winning the contest the wild pear qualified to the final of the European Tree of the Year contest that is to be announced in the February of 2014. </p>
-          <p>The Hero Tree award was given to the 303 years old pear tree of Solymár and the 300 years old sorb tree in Teleki received the special award of the National Forestry Association.</p>
+          <p>On the 29 of November we celebrated the finalists of the Tree of the Year contest together with the towns,
+          organizations and families who nominated them. Ökotárs awarded several trees and all finalists received a gift.</p>
+          <p>This year, the ever greatest number of votes, 18 661 were cast for the 12 finalist trees. The Tree of the
+          Year nominated with the title of "The legendary old wild pear, or the story of the lonely giant"
+          won the contest with 4059 votes. This tree stands in the botanical garden of the Saint István University,
+          and it was planted by Count Grassalkovich in the 18th century with another 999 wild pears. By winning the
+          contest the wild pear qualified to the final of the European Tree of the Year contest that is to be announced in
+          the February of 2014. </p>
+          <p>The Hero Tree award was given to the 303 years old pear tree of Solymár and the 300 years old sorb tree in
+          Teleki received the special award of the National Forestry Association.</p>
         </div>
         <div class="item-image"><img src="./images/gödöllői_vadkörte.jpg"></div>
       </div>
@@ -355,8 +376,13 @@
       <div class="item-content">
        <div class="item-title">Open letter about the amendment of the Nonprofit Act - a missed window of opportunities</div>
         <div class="item-body">
-          <p>In order to harmonize its provisions with the Civil Code, the government presented an amendment Nonprofit Act at the end of October in the Parlament. After conducting the parlamentary debate the modifiactions were accepted on the 2nd of December. Both before and during the legislative procedure several NGOs - including Ökotárs - proposed detailed modifications to develop the regulations towards a more ""civil friendly"" direction. Unfortunately nothing of these suggestions was reflected in the accepted legislative amendments.</p>
-          <p>Therefore, upon the initiative of Ökotárs finally 7 leading NGOs formulated and published their criticism in an open letter. ((http://okotars.hu/sites/default/files/nyilt_level_a_civil_szervezeteket_erinto_varhato_valtozasokrol.pdf).</p>
+          <p>In order to harmonize its provisions with the Civil Code, the government presented an amendment Nonprofit
+          Act at the end of October in the Parlament. After conducting the parlamentary debate the modifiactions were accepted on the 2nd
+          of December. Both before and during the legislative procedure several NGOs - including Ökotárs - proposed
+          detailed modifications to develop the regulations towards a more "civil friendly" direction. Unfortunately nothing of
+          these suggestions was reflected in the accepted legislative amendments.</p>
+          <p>Therefore, upon the initiative of Ökotárs finally 7 leading NGOs formulated and published <a href="./attachments/nyilt_level_a_civil_szervezeteket_erinto_varhato_valtozasokrol.pdf">their criticism in an
+          open letter</a>.</p>
         </div>
       </div>
     </div>

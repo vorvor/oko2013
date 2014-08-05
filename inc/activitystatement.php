@@ -10,7 +10,7 @@
 <tr><td></td><td>5. Fund received from business entities</td><td></td><td>68 400</td><td></td></tr>
 <tr><td></td><td>6. Income from 1% income tax</td><td></td><td>341</td><td></td></tr>
 <tr><td></td><td>7. Bank income</td><td></td><td>95 994</td><td></td></tr>
-<tr><td></td><td><strong>Összes bevétel</strong></td><td></td><td></td><td><strong>770757</strong></td></tr>
+<tr><td></td><td><strong>Total income</strong></td><td></td><td></td><td><strong>2 579 508</strong></td></tr>
 
 <tr><td><strong>C.</strong></td><td><strong>Expenses</strong></td><td></td><td></td><td></td></tr>
 <tr><td></td><td>6. Personnel</td><td></td><td>113 357</td><td></td></tr>

@@ -14,7 +14,7 @@
             A 2012-ben meghirdetett pályázaton a témakörre beérkezett 99 pályázat közül a formai ellenőrzés után 92 került szakmai,
             tartalmi értékelésre. Közülük a KEB 24 pályázatot támogatott kis- (2-10 000 CHF) közepes- (10-50 000 CHF) és nagyprojekt
             (50-100 000 HCF) kategóriában, összesen 272 609 503 Ft-tal.</p>
-            <p><a href="#">Támogatottak listája</a></p>
+            <p><a href="index.php?q=reporter&f=svajcfix">Támogatottak listája</a></p>
           </div>
         <div class="item-image"><img src="./images/swiss_contribution_magyar.jpg"></div>
       </div>
@@ -47,7 +47,7 @@
             összesen 216 702 000 forinttal, a teljes keretet kimerítve.</p>
             <p>A Civil Alap, környezeti kihívások témakörében 24 pályázatot talált támogatásra édemesnek a KEB,
             míg a szociális szolgáltatások témakörben 33 db pályázat kapott lehetőséget, 497 765 149 forint értékben.</p>
-            <p><a href="#">Támogatottak listája</a></p>
+            <p><a href="index.php?q=reporter&f=svajcfix">Támogatottak listája</a></p>
     
           </div>
         <div class="item-image"></div>
@@ -175,7 +175,7 @@
       
     
     <!-- ----------------------------------------------   SZEMPTEMBER  ------------------------------------------------------------------ -->
-    <div class="month september">Szemptember</div>
+    <div class="month september">Szeptember</div>
     
     
     <div class="item">
@@ -213,7 +213,7 @@
          
         </div>
         <div class="item-image"><img src="./images/usaid_MO_2012.png"></div>
-        <div class="item-attachment"><a href="./attachments/https://docs.google.com/file/d/0B6OtTwiJJ0fvVWVNZGtLUnhadWc/edit?usp=drive_web">
+        <div class="item-attachment"><a href="./attachments/USAID_2012_HUN.pdf">
           SZERVEZETEK FENNTARTHATÓSÁGI MUTATÓJA 2012-BEN – MAGYARORSZÁG - 2013. június</a></div>
       </div>
     </div>
@@ -287,7 +287,7 @@
             induló és a második fordulóba továbbjutott pályázók a közösségi tervezés eredményeként kialakult részletes pályázataikat.
             Az Adományi bizottság február 15-én döntött:
             a 41 beérkezett pályázat közül 27 projekt részesült támogatásban, összesen 14 502 000 Ft értékben.</p>
-            <p><a href="#">Támogatottak listája</a></p>
+            <p><a href="index.php?q=reporter&f=zoldfix">Támogatottak listája</a></p>
           </div>
         <div class="item-image"><img src="./images/zö2012_cserje_ultetes_iskolasokkal.jpg"></div>
       </div>
@@ -355,7 +355,9 @@
             Zalaegerszegen, Debrecenben, Pécsett és Budapesten tartott rendezvényeken mutattuk be civil szervezeteknek az
             új civil törvényről alkotott eddigi nézeteinket és a kapcsolódó közvélemény-kutatásunk eredményeit, azzal a céllal,
             hogy véleményeket, javaslatokat gyűjtsünk egy átfogó módosító csomag elkészítéséhez és véglegesítéséhez.
-            (közvetlen LINK az anyagohoz) Az összesen mintegy 220 résztvevővel lezajlott fórumokon minden alkalommal élénk
+            (<a href="http://civiljogok.hu/hirek/201304/24/hogyan-kellene-modositani-civil-szervezetekkel-kapcsolatos-jogszabalyi-rendelkezesek">
+            http://civiljogok.hu/hirek/201304/24/hogyan-kellene-modositani-civil-szervezetekkel-kapcsolatos-jogszabalyi-rendelkezesek
+            </a>) Az összesen mintegy 220 résztvevővel lezajlott fórumokon minden alkalommal élénk
             eszmecsere alakult ki, és számos izgalmas felvetés hangzott el, elsősorban a közhasznúság problémakörét érintve,
             hiszen ennek markánsan új feltételeivel épp ebben az időszakban, a 2012-es évről szóló beszámoló
             elkészítése alkalmával találkoztak először „élesben” a szervezetek.</p>
@@ -379,7 +381,7 @@
             közösségfejlesztő szervezetek szerepelnek, zömmel Budapestről, de a tudásuk átadását és a kisebb civil szervezetek,
             csoportok megerősítését szolgáló projetkeik az egész országot lefedik. Mindkét témakörben támogatást kaptak olyan projektek is,
             amielyek különös figyelmet fordítanak a roma közösségekkel való együttműködésre is.</p>
-            <p><a href="#">Támogatottak listája</a></p>
+            <p><a href="index.php?q=reporter&f=norvegfix">Támogatottak listája</a></p>
           </div>
         
         <div class="item-image"></div>
@@ -456,7 +458,7 @@
           Ökotárs Alapítvány a jogalkotási folyamat előtt és alatt is több ízben tettek részletes szakmai javaslatokat a szabályozás
           „civilbarátabbá” tételére – sajnos azonban ezekből az ajánlásokból szinte semmi sem tükröződött az elfogadott
           törvénymódosításban. </p>
-          <p>Az Ökotárs kezdeményezésére ezért 7 civil szervezet <a href="http://okotars.hu/sites/default/files/nyilt_level_a_civil_szervezeteket_erinto_varhato_valtozasokrol.pdf">
+          <p>Az Ökotárs kezdeményezésére ezért 7 civil szervezet <a href="./attachments/nyilt_level_a_civil_szervezeteket_erinto_varhato_valtozasokrol.pdf">
           nyílt levelet tett közzé</a>, melyben megfogalmazták kritikáikat."</p>
         </div>
       </div>

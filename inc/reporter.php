@@ -27,7 +27,7 @@ function read_reports() {
                'altatom' => 'project_name_hu,org_name_hu,settlement,project_sum_hu,amount_huf',
                //'atom' => 'category,id,url,project_name_hu,project_name_en,org_name_hu',
                'norvegfix' => 'topic_hu,topic_en,id,id_code,org_name_hu,project_name_hu,project_name_en,settlement_en,settlement,org_name_en,project_name_number,project_sum_en,project_sum_hu,empty,amount_eur',
-                'svajcfix' => 'title_hu,empty,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_en,project_sum_hu,state,amount_huf,id_code,empty,emty,emty,emty,settlement',
+                'svajcfix' => 'title_hu,empty,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_en,project_sum_hu,state,amount_huf,id_code,settlement,empty,empty,empty,empty',
                 'zoldfix' => 'id,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_hu,project_sum_en,state,settlement,amount_huf');
   
   for ($c = 0; $c < 5; $c++) {

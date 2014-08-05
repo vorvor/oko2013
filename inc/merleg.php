@@ -26,13 +26,13 @@
 <tr><td class="lpad">I. HÁTRASOROLT KÖTELEZETTSÉGEK</td><td></td><td></td></tr>
 <tr><td class="lpad">II. HOSSZÚ LEJÁRATÚ KÖTELEZETTSÉGEK</td><td></td><td></td></tr>
 <tr><td class="lpad">III. RÖVID LEJÁRATÚ KÖTELEZETTSÉGEK</td><td>7 309.00</td><td>463 949.00</td></tr>
-<tr><td class="lpad">G. Passzív időbeli elhatárolások*</td><td>613.00</td><td>247 430.00</td></tr>
+<tr><td>G. Passzív időbeli elhatárolások*</td><td>613.00</td><td>247 430.00</td></tr>
 <tr class="emp"><td>FORRÁSOK (PASSZÍVÁK) ÖSSZESEN</td><td>452 930.00</td><td>1 180 305.00</td></tr>
 </table>
 
 
 
-<div class=table-footer><p>* 2013-ban leszerződőttvde a támogatási ütemezés szerint még ki nem fizetett adományok.</div>
+<div class=table-footer><p>* 2013-ban leszerződőtt, de a támogatási ütemezés szerint még ki nem fizetett adományok.</div>
 
 
 

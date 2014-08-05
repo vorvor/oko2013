@@ -24,15 +24,34 @@ $(document).ready(function() {
     
   });
   
+  function getUrlVars() {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+  }
+  
+  v = getUrlVars();
+  
+  if (v['f'] != undefined) {
+    $('.row').hide();
+    $('.row[data-topic="' + v['f'] + '"]').show();
+    $('#topic-filter').val(v['f']);
+  };
   
   
   function search(s1, s2) {
     console.log(s1 + ':' + s2);
     $('.row').hide();
-    if (s1 != 'város' && s1 != undefined && s2 != 0 && s2 != undefined) {
+    if (s1 != 'Összes város' && s1 != undefined && s2 != 0 && s2 != undefined) {
       $('.row[data-settlement="' + s1 + '"][data-topic="' + s2 + '"]').show();
       console.log(1);
-    } else if (s1 != 'város' && s1 != undefined) {
+    } else if (s1 != 'Összes város' && s1 != undefined) {
       $('.row[data-settlement="' + s1 + '"]').show();
       console.log(2);
     } else if (s2 != 0 && s2 != undefined) {
@@ -126,7 +145,7 @@ $(document).ready(function() {
       return $text;
   } 
   
-  
+  $('#main-content a').attr('target', '_blank');
   
   
   
