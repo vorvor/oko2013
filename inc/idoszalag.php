@@ -237,7 +237,7 @@
        <div class="item-title">Régi-új munkatárs</div>
         <div class="item-body">
           <p>Rövid kitérő után visszatért hozzánk Csóli Virág, aki 2008 és 2011 között az NCTA pályázatait kezelte
-          nálunk, most pedig a Svájci-Magyar Civil Alap ""zöld"" pályázatainak lebonyolításában vesz részt.</p>
+          nálunk, most pedig a Svájci-Magyar Civil Alap "zöld" pályázatainak lebonyolításában vesz részt.</p>
         </div>
         <div class="item-image"><img src="./images/csoli_virag.jpg"></div>
       </div>

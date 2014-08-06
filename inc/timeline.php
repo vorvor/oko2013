@@ -10,7 +10,7 @@
        <div class="item-title">The evaluation of the environmental applications received in the Swiss-Hungarian NGO Block Grant and Scholarship Fund is finished</div>
         <div class="item-body">
             <p>On the 31st of January the Small Project Approval Committee (SPAC) responsible for the thematic area "responses to environmental concerns" has made it's supporting decision. 99 application was submitted to the call announced in 2012. After the formal screening 92 of them was assessed. The SPAC supported altogether 24 applications with 272 609 503 HUF in the small (2-10 thsd CHF) medium (10-50 thsd CHF) and macro (50-100 thsd CHF) categories.</p>
-            <p><a href="#">List of supported projects</a></p>
+            <p><a href="index.php?q=reporter&f=svajcfix&lang=en">List of supported projects</a></p>
           </div>
         <div class="item-image"><img src="./images/swiss_contribution_magyar.jpg"></div>
       </div>
@@ -38,7 +38,7 @@
        <div class="item-title">Funding decisions in the first call of the Swiss-Hungarian NGO Block Grant and Scholarship Fund</div>
         <div class="item-body">
             <p>On the 20th of March the Small Project Approval Committeeof the "provision of social services" thematic area held its second meeting, and thus, the funding  decisions were taken in all thematic areas. The Scholarship Fund used its full allocation to support 9 projects altogether with 216 702 000 HUF to help marginalized children starting or finishing secondary level education. In the framework of the NGO Block Grant 24 applications were supported in the environmental thematic area while 33 projects were supported in the social services area, altogether with 497 765 149 HUF.</p>
-            <p><a href="#">Supported projects</a></p>
+            <p><a href="index.php?q=reporter&f=svajcfix&lang=en">Supported projects</a></p>
     
           </div>
         <div class="item-image"></div>
@@ -241,7 +241,7 @@
        <div class="item-title">Green Belt 2012/2013 - grant results</div>
         <div class="item-body">
             <p>This was the seventh year since 2006 that local civil initiatives and (for the second time) condos' communities from the capital could apply to transform their environment making it greener and nicer with the involvement of the local citizens in the framework of a community action. This year, applicants who passed the first phase of the process could submit their full proposals in the second phase until the 7th of January. The plan had to be developed in a participatory, community planning process. The Grants Committee made its decision on the 15th of February: 27 out of the 41 submitted proposalsn were supported with altogether 14 502 000 HUF.</p>
-            <p><a href="#">List of supported projects</a></p>
+            <p><a href="index.php?q=reporter&f=zoldfix&lang=en">List of supported projects</a></p>
           </div>
         <div class="item-image"><img src="./images/zö2012_cserje_ultetes_iskolasokkal.jpg"></div>
       </div>
@@ -313,7 +313,7 @@
         <div class="item-body">
             <p>In the first days of August, the evaluation of the 2nd phase macro project applications was successfully completed and the final grant decisions made. Accordingly, out of the 43 detailed proposals 14 received support in thematic area I. (human rights and advocacy) and 9 in thematic area II. (organisation and community development), with a total amount of app. 2.7 million €.</p>
             <p>The list of supported organizations includes civil righta, women's and community develoment organizations, mainly from Budapest, but they projects serving the know how transfer to smaller civil groups and NGOs are covering the whole country. In both thematic areas there are projects focusing on the cooperation with Roma communities, too.</p>
-            <p><a href="#">Grant's list</a></p>
+            <p><a href="index.php?q=reporter&f=norvegfix&lang=en">Grant's list</a></p>
           </div>
         
         <div class="item-image"></div>
