@@ -309,7 +309,7 @@
             túl a délutáni szekcióban "rapid-randi" formában nyílt
             lehetőség a hazai civilekkel való ismerkedésre és az első kapcsolatfelvételre.</p>
           </div>
-        <div class="item-image">FOTÓ:ncta_launch_montazs (NCTA_launch, NCTA_launch1, NCTA_launch2 + logók)"<img src="./images/https://docs.google.com/file/d/0B6OtTwiJJ0fvZWxZYk9HN250eWs/edit?usp=drive_web"></div>
+        <div class="item-image"><img src="./images/ncta_montazs.jpg"></div>
       </div>
     </div>
   

@@ -255,7 +255,7 @@
         <div class="item-body">
             <p>The new call for proposals of the NGO Fund was opened on the 12th of February to support macro and micro projects (in 7 thematic areas) and individual internships. The overall objective of the Hungarian NGO Fund is “strengthened civil society development and enhanced contribution to social justice, democracy and sustainable development” as the  Donors defined it. Ökotárs and its partners introduced the general framework and the calls in detail at the full house opening event of the Fund held in the European Youth Centre in Budapest. The participation of 13 NGOs from Norway and Iceland served the other important goal of the programme, strengthening of bilateral partnerships with the Donor states: after their introduction they could meet and make first contact with representatives of Hungarian NGOs at a  successful "speed dating" session.</p>
           </div>
-        <div class="item-image">FOTÓ:ncta_launch_montazs (NCTA_launch, NCTA_launch1, NCTA_launch2 + logók)"<img src="./images/https://docs.google.com/file/d/0B6OtTwiJJ0fvZWxZYk9HN250eWs/edit?usp=drive_web"></div>
+        <div class="item-image"><img src="./images/ncta_montazs.jpg"></div>
       </div>
     </div>
   

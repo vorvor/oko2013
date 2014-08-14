@@ -47,7 +47,7 @@
         <span class="info">+36 1 411 3500</span>
       </div>
       <div class="contact" id="contact-mail">
-        <span class="info"><a href="http://okotars.hu">okotars@okotars.hu</a></span>
+        <span class="info"><a href="mailto:info@okotars.hu">info@okotars.hu</a></span>
       </div>
       <div class="contact" id="contact-web">
         <span class="info"><a href="http://okotars.hu">www.okotars.hu</a></span>
@@ -153,7 +153,7 @@
         <span class="info">+36 1 411 3500</span>
       </div>
       <div class="contact" id="contact-mail">
-        <span class="info"><a href="http://okotars.hu">okotars@okotars.hu</a></span>
+        <span class="info"><a mailto="info@okotars.hu">info@okotars.hu</a></span>
       </div>
       <div class="contact" id="contact-web">
         <span class="info"><a href="http://okotars.hu">www.okotars.hu</a></span>

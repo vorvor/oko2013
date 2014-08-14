@@ -5,8 +5,15 @@ $topics = array('altatom' => 'Alternatíva az atomenergiára',
                 'adomprog' => 'Adományi program',
                 //'atom' => 'Atom és hitelek',
                 'norvegfix' => 'Norvég Civil Támogatási Alap',
-                'svajcfix' => 'Svaci Magyar Civil és Ösztöndíj',
+                'svajcfix' => 'Svájci Magyar Civil és Ösztöndíj',
                 'zoldfix' => 'Zöldövezet');
+
+$topics_en = array('altatom' => 'Alternatives to nuclear energy',
+                'adomprog' => 'Grant program',
+                //'atom' => 'Atom és hitelek',
+                'norvegfix' => 'EEA/Norway NGO Fund',
+                'svajcfix' => 'Swiss-Hungarian NGO and Scholarship Funds',
+                'zoldfix' => 'Green Belt');
 
 $curr = array('altatom' => 'eur',
               'adomprog' => 'huf',
@@ -174,27 +181,42 @@ function theme($topic, $data, $lang = 'hu') {
 }
 
 function filter() {
-  global $settlements, $topics;
+  global $settlements, $topics, $topics_en, $lang;
   asort($settlements);
   $output = '';
   $output.= '<div id="filter-wrapper">';
   $output.= '<select id="settlement-filter">';
   
   array_shift($settlements);
-  array_unshift($settlements, 'nincs_adat');
-  array_unshift($settlements, 'Összes város');
+  //array_unshift($settlements, 'nincs_adat');
+  if ($lang != 'en') {
+    array_unshift($settlements, 'Összes város');
+  } else {
+    array_unshift($settlements, 'All settlements');
+  }
   foreach ($settlements as $settlement) {
     $output.= '<option>' . $settlement . '</option>';
   }
   $output.= '</select>';
-  
-  array_unshift($topics, 'Összes program');
+
+  if ($lang != 'en') {
+    array_unshift($topics, 'Összes program');
+  } else {
+    $topics = $topics_en;
+    array_unshift($topics, 'All programs');
+  }
   $output.= '<select id="topic-filter">';
   foreach ($topics as $key => $topic) {
     $output.= '<option value="' . $key . '">' . $topic . '</option>';
   }
   $output.= '</select>';
-  $output.= '<span class="search-keyword">Keresés <input type="text" id="keyword"></span>';
+  $output.= '<span class="search-keyword">';
+  if ($lang != 'en') {
+    $output.= 'Keresés';
+  } else {
+    $output.= 'Search';
+  }
+  $output.= '<input type="text" id="keyword"></span>';
   $output.= '</div>';
   
   return $output;

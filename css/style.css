@@ -823,6 +823,20 @@ img {
 }
 
 
-
+@media all and (max-width: 1190px) {
+  body {
+    
+  }
+  #header-logo {
+    display: none;
+  }
+  #header-text {
+    
+    margin-top:10px;
+  }
+  #header h2 {
+    line-height: 1em;
+  }
+}
 
 
