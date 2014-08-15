@@ -23,9 +23,9 @@ $curr = array('altatom' => 'eur',
                 
                 
 $even = 'true';
-
+ 
 function read_reports() {
-  global $settlements, $topics;
+  global $settlements, $topics, $topics_en, $lang;
   
   $files = array('adomprog', 'altatom', 'norvegfix', 'svajcfix', 'zoldfix');
   
@@ -69,16 +69,24 @@ function read_reports() {
   $output = '';
   $output.= '<div id="search-results">';
   $output.= '<div id="table-header">';
-  $output.= '<div class="topic field">Témakör</div>';
-  $output.= '<div class="project-name field">Projekt neve</div>';
-  $output.= '<div class="org-name field">Szervezet neve</div>';
   
-  $output.= '<div class="settlement field">Település</div>';
-  
-  $output.= '<div class="summary field">Projekt összegzése</div>';
-  
-  $output.= '<div class="amount field">Összeg</div>';
-  
+  if ($lang != 'en') {
+    $output.= '<div class="topic field">Témakör</div>';
+    $output.= '<div class="project-name field">Projekt neve</div>';
+    $output.= '<div class="org-name field">Szervezet neve</div>';
+    $output.= '<div class="settlement field">Település</div>';
+    $output.= '<div class="summary field">Projekt összegzése</div>';
+    $output.= '<div class="amount field">Összeg</div>';
+    
+  } else {
+    $output.= '<div class="topic field">Program code</div>';
+    $output.= '<div class="project-name field">Project title</div>';
+    $output.= '<div class="org-name field">Grantee\'s name</div>';
+    $output.= '<div class="settlement field">Settlement</div>';
+    $output.= '<div class="summary field">Project summary</div>';
+    $output.= '<div class="amount field">Grant amount</div>';
+    
+  }
   $output.= '</div>';
   foreach ($uudata as $keys => $rows) {
     //$output.= '<h1>' . $keys . '</h1>';
@@ -95,7 +103,7 @@ function read_reports() {
 }
 
 function theme($topic, $data, $lang = 'hu') {
-  global $topics, $even, $curr, $lang;
+  global $topics, $even, $curr, $lang, $topics_en;
   
   $project_name = isset($data['project_name_hu']) ? $data['project_name_hu'] : 'nincs adat';
   if ($lang == 'en') {
@@ -165,7 +173,11 @@ function theme($topic, $data, $lang = 'hu') {
   }
   $output = '';
   $output.= '<div class="row ' . $rowclass . '" data-settlement="' . $settlement . '" data-topic="' . $topic . '">';
-  $output.= '<div class="topic field">' . $topics[$data['topic']] . '</div>';
+  if ($lang != 'en') {
+    $output.= '<div class="topic field">' . $topics[$data['topic']] . '</div>';
+  } else {
+    $output.= '<div class="topic field">' . $topics_en[$data['topic']] . '</div>';
+  }
   $output.= '<div class="project-name field">' . $project_name . '</div>';
   $output.= '<div class="org-name field">' . $org_name . '</div>';
   
