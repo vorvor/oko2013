@@ -30,8 +30,8 @@ function read_reports() {
   $files = array('adomprog', 'altatom', 'norvegfix', 'svajcfix', 'zoldfix');
   
   
-  $map = array('adomprog' => 'project_name_hu,org_name_hu,settlement,project_sum_hu,amount_huf',
-               'altatom' => 'project_name_hu,org_name_hu,settlement,project_sum_hu,amount_huf',
+  $map = array('adomprog' => 'project_name_hu,org_name_hu,settlement,project_sum_hu,amount_huf,project_sum_en,project_name_en',
+               'altatom' => 'project_name_hu,org_name_hu,settlement,project_sum_hu,amount_huf,project_name_en,project_sum_en',
                //'atom' => 'category,id,url,project_name_hu,project_name_en,org_name_hu',
                'norvegfix' => 'topic_hu,topic_en,id,id_code,org_name_hu,project_name_hu,project_name_en,settlement_en,settlement,org_name_en,project_name_number,project_sum_en,project_sum_hu,empty,amount_eur',
                 'svajcfix' => 'title_hu,empty,org_name_hu,org_name_en,project_name_hu,project_name_en,project_sum_en,project_sum_hu,state,amount_huf,id_code,settlement,empty,empty,empty,empty',
